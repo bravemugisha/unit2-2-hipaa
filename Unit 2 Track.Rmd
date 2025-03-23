@@ -1,0 +1,72 @@
+---
+title: "PHI"
+output: html_document
+date: "2025-03-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+library(readr)
+library(dplyr)
+library(stringr)
+form1human <- read_csv("~/Desktop/gov1430/1-form1human.csv")
+View(X1_form1human)
+
+# Check column names to find the correct column
+colnames(form1human)
+
+# Add indicator columns to the original data about which data types were involved
+form1human <- form1human %>%
+  mutate(Personal_Health_Information = as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Personal Health Information")))%>%
+  mutate(Demographics= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Demographics")))%>%
+  mutate(Education_or_Licensing= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Educational or Professional Licensing Data")))%>%
+  mutate(Financial= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Financial Data")))%>%
+  mutate(Real_Estate= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Real Estate Information")))%>%
+   mutate(Credit= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Credit Information")))%>%
+   mutate(Internet_Network= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Internet or Network Activity")))%>%
+  mutate(Location= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Geo-location or GPS Data")))%>%
+    mutate(Legal= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Legal or Criminal Information")))%>%
+    mutate(Online_Social= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Social Media or Online Content")))%>%
+  mutate(Not_Applicable= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Not applicable")))%>%
+  mutate(non_HIPAA_Medical= as.integer(str_detect(`Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.`, "Medical information not covered by HIPAA")))
+
+#Add a column for whether a covered entity was involved or not
+form1human <- form1human %>%
+  mutate(Covered_Entity_Involved= case_when (
+    `Parties Involved. Look at the top of the form for the parties involved in the case.`== "Neither Party is a Covered Entity" ~ "0", 
+    `Parties Involved. Look at the top of the form for the parties involved in the case.`== "Individual vs. Healthcare Provider (Covered Entity)" ~ "1", 
+    `Parties Involved. Look at the top of the form for the parties involved in the case.`== "Individual vs. Health Insurance Plan (Covered Entity)" ~ "1", 
+    `Parties Involved. Look at the top of the form for the parties involved in the case.`== "Government vs. Healthcare Entity (Covered Entity)" ~ "1", 
+    `Parties Involved. Look at the top of the form for the parties involved in the case.`== "Business Associate of Covered Entity (Covered Entity)" ~ "1",
+    `Parties Involved. Look at the top of the form for the parties involved in the case.`== "Healthcare Provider vs. Healthcare Provider (Covered Entity)" ~ "1",
+    .default= "other"
+    ))
+
+```
+
+```{r}
+#Scratch work
+               
+
+#finding unique number of docs
+num_docs<-length(unique(form1human$`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.`))
+
+#finding number of unique PHI, covered entity, and Doc ID combos
+filtered_data<-form1human%>%
+  select(`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.`, Personal_Health_Information,Covered_Entity_Involved)%>%
+  unique()
+
+
+
+filtered_data%>%
+  group_by(`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.`)%>%
+  count()%>%
+  group_by(n)%>%
+  count()
+```
+
