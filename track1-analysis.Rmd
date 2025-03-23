@@ -1,0 +1,19 @@
+---
+title: "track1-analysis"
+author: "Brave"
+date: "2025-03-23"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+form1human <- read.csv("1-form1human.csv")
+form1human
+```
+
+```{r}
+str(form1human)
+```
