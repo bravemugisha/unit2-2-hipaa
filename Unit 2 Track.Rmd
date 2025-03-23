@@ -69,4 +69,29 @@ filtered_data%>%
   group_by(n)%>%
   count()
 ```
+```{r}
+#data set to identify duplicates
+colnames(form1human)
+
+
+unique_rows_var_of_interest<-form1human%>%
+  rename("docID"="DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters." )%>%
+  #deselect variables that are not of interest to us
+  select(-c ("Legal Issue","Document Type","Date of Document or Case","Date of Document or Case", "Something interesting? Potential Problematic Strategic Use of HIPAA. This applies to cases where HIPAA is being used to undermine lawsuits that seeks to assert individual rights (e.g. lawsuits about environmental harms, workplace injuries or drug harms or just feels \"creepy\") [OPTIONAL]", "...9","...10", "...11", "...12","...13","...14", "Type of court.", "Parties Involved. Look at the top of the form for the parties involved in the case.","Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.","Demographics", "Education_or_Licensing","Financial", "Real_Estate","Credit","Internet_Network","Location" ,"Legal", "Online_Social", "Not_Applicable", "non_HIPAA_Medical" ))%>%
+  unique()%>%
+  arrange(docID)
+
+
+
+duplicate_doc_id<-unique_rows_var_of_interest%>%
+  group_by(docID)%>%
+  count()%>%
+  filter(n>1)%>%
+  select(docID)%>%
+   pull(docID)  # Use pull to extract the docID as a vector
+
+duplicate_docID_rows<-unique_rows_var_of_interest%>%
+  filter(docID %in% duplicate_doc_id)
+
+```
 
