@@ -1,0 +1,450 @@
+DocumentID,PartiesInvolved,KindOfPersonalData,DocumentType,DateOfDocumentOrCase
+doc-6-28,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Vitae,2012
+doc-11-54,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2013
+doc-7-6,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2015
+doc-2-38,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-2-52,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2017
+doc-6-66,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2021
+doc-2-98,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Financial Data",Expert Witness Reports,2023
+doc-2-87,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-5-56,Neither Party is a Covered Entity,Legal or Criminal Information,Depositions,2023
+doc-5-63,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-3-41,Neither Party is a Covered Entity,Financial Data,Expert Witness Reports,2023
+doc-5-60,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2020
+doc-6-13,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2012
+doc-2-75,Neither Party is a Covered Entity,Financial Data,"Depositions, Expert Witness Reports",Not known
+doc-4-7,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2013
+doc-3-35,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2020
+doc-2-65,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-3-42,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2008
+doc-2-7,Business Associate of Covered Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)","Depositions, Expert Witness Reports",2022
+doc-6-42,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-5-90,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-10-25,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Court Rulings/Decisions,2022
+doc-5-47,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Expert Witness Reports,2023
+doc-2-36,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-2-30,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2016
+doc-6-47,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2010
+doc-2-46,Individual vs. Health Insurance Plan (Covered Entity),"Financial Data, Other",Depositions,2019
+doc-2-90,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-6-65,Other,Educational or Professional Licensing Data,Vitae,2023
+doc-2-34,Other,Not applicable,Vitae,2017
+doc-7-9,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2022
+doc-6-44,Individual vs. Healthcare Provider (Covered Entity),"Internet or Network Activity, Other",Expert Witness Reports,2020
+doc-2-28,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2019
+doc-2-58,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2021
+doc-6-40,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2020
+doc-1-4,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2018
+doc-8-3,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-10-34,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,Other
+doc-5-51,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Depositions,2018
+doc-7-3,Other,Educational or Professional Licensing Data,Vitae,2010
+doc-12-68,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-6-12,Other,Educational or Professional Licensing Data,Expert Witness Reports,2022
+doc-3-28,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Vitae,2007
+doc-3-36,Neither Party is a Covered Entity,Legal or Criminal Information,Depositions,2017
+doc-5-62,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2012
+doc-9-06,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2020
+doc-2-73,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-5-1,Other,Not applicable,Vitae,2023
+doc-10-30,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-6-25,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2022
+doc-10-33,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2010
+doc-2-85,Neither Party is a Covered Entity,"Educational or Professional Licensing Data, Other",Expert Witness Reports,2017
+doc-5-87,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Other",Expert Witness Reports,2013
+doc-5-99,Neither Party is a Covered Entity,"Financial Data, Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-5-27,Government vs. Healthcare Entity (Covered Entity),"Financial Data, Demographics",Expert Witness Reports,2008
+doc-5-18,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2020
+doc-6-23,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-6-57,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Educational or Professional Licensing Data, Legal or Criminal Information",Expert Witness Reports,2013
+doc-2-99,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-2-14,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-9-19,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Court Rulings/Decisions,2021
+doc-2-31,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2016
+doc-8-18,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-4-4,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-3-34,Other,Educational or Professional Licensing Data,Vitae,2014
+doc-2-25,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-2-66,Neither Party is a Covered Entity,Other,Depositions,2015
+doc-13-77,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-2-17,Neither Party is a Covered Entity,"Legal or Criminal Information, Other",Expert Witness Reports,2018
+doc-6-69,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data","Expert Witness Reports, Depositions",2013
+doc-2-12,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2010
+doc-2-81,Neither Party is a Covered Entity,"Internet or Network Activity, Legal or Criminal Information, Other",Expert Witness Reports,2020
+doc-12-66,Neither Party is a Covered Entity,Not applicable,Court Rulings/Decisions,Not known
+doc-5-85,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-10-39,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-5-50,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-13-70,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,2012
+doc-2-61,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-6-16,Other,Educational or Professional Licensing Data,Vitae,2010
+doc-11-52,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2022
+doc-6-29,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2023
+doc-5-91,Other,Not applicable,Vitae,2017
+doc-6-63,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2010
+doc-2-6,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2018
+doc-3-5,Neither Party is a Covered Entity,Other,Depositions,2021
+doc-2-78,Neither Party is a Covered Entity,"Financial Data, Educational or Professional Licensing Data","Depositions, Expert Witness Reports",Not known
+doc-8-6,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-11-57,Neither Party is a Covered Entity,Not applicable,Court Rulings/Decisions,Other
+doc-6-70,Other,Not applicable,Expert Witness Reports,2005
+doc-11-53,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2019
+doc-3-9,Other,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2016
+doc-8-16,Other,Educational or Professional Licensing Data,Vitae,2017
+doc-1-2,Healthcare Provider vs. Healthcare Provider (Covered Entity),Demographics,Expert Witness Reports,2009
+doc-5-94,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-3-23,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2015
+doc-2-70,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Expert Witness Reports,2023
+doc-5-82,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-1-1,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-2-67,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-9-18,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-2-9,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-11-48,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Other,2021
+doc-4-6,Neither Party is a Covered Entity,"Financial Data, Medical information not covered by HIPAA",Expert Witness Reports,2011
+doc-5-31,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2017
+doc-5-20,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Social Media or Online Content",Expert Witness Reports,2021
+doc-10-21,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2008
+doc-5-21,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2010
+doc-5-8,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data, Legal or Criminal Information",Expert Witness Reports,2022
+doc-5-53,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2015
+doc-5-13,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics","Expert Witness Reports, Vitae",2022
+doc-4-2,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-5-59,Other,Not applicable,Vitae,2023
+doc-6-19,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2005
+doc-2-68,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-2-10,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-9-14,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2022
+doc-8-14,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-2-18,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2019
+doc-6-1,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-5-45,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2014
+doc-8-8,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-10-36,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2021
+doc-3-1,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2020
+doc-5-17,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2012
+doc-5-15,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-3-17,Government vs. Healthcare Entity (Covered Entity),Financial Data,Expert Witness Reports,2023
+doc-10-31,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-6-26,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2009
+doc-3-12,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,Not known
+doc-2-82,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2014
+doc-5-48,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2010
+doc-2-43,Individual vs. Health Insurance Plan (Covered Entity),Other,Expert Witness Reports,2020
+doc-6-30,Other,Educational or Professional Licensing Data,Vitae,2011
+doc-4-9,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2011
+doc-5-19,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-8-19,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics, Financial Data",Expert Witness Reports,2022
+doc-5-6,Healthcare Provider vs. Healthcare Provider (Covered Entity),Demographics,Expert Witness Reports,2009
+doc-2-71,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-5-67,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2011
+doc-6-74,Other,Educational or Professional Licensing Data,Vitae,2009
+doc-2-84,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Depositions,2018
+doc-2-92,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-3-20,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2016
+doc-13-75,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2021
+doc-2-19,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-8-4,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-2-45,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2010
+doc-8-13,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2022
+doc-5-25,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Expert Witness Reports,2023
+doc-2-4,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2020
+doc-5-28,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,Not known
+doc-2-44,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2014
+doc-12-67,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,2010
+doc-5-81,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-2-23,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-5-84,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-6-32,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2015
+doc-8-9,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics","Expert Witness Reports, Affidavit",2022
+doc-3-29,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-5-96,Neither Party is a Covered Entity,"Financial Data, Legal or Criminal Information",Depositions,2017
+doc-9-20,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Court Rulings/Decisions,Other
+doc-6-51,Other,Educational or Professional Licensing Data,Vitae,2010
+doc-2-32,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2022
+doc-10-40,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-12-62,Individual vs. Healthcare Provider (Covered Entity),Financial Data,Court Rulings/Decisions,2021
+doc-5-78,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-3-16,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-13-71,Other,"Personal Health Information (including biometrics, DNA)",Other,Not known
+doc-5-95,Other,Educational or Professional Licensing Data,Vitae,2019
+doc-13-74,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-5-4,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-6-10,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2016
+doc-9-02,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Court Rulings/Decisions,2012
+doc-3-10,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2015
+doc-2-54,Other,Not applicable,Expert Witness Reports,2009
+doc-5-16,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-5-30,Other,Not applicable,Expert Witness Reports,2014
+doc-6-5,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information","Depositions, Expert Witness Reports",2021
+doc-3-40,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)","Depositions, Expert Witness Reports",2023
+doc-8-5,Neither Party is a Covered Entity,Not applicable,Depositions,2022
+doc-6-62,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2014
+doc-8-1,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-6-46,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-2-56,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2013
+doc-6-34,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics, Educational or Professional Licensing Data, Financial Data",Expert Witness Reports,2010
+doc-8-7,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Expert Witness Reports,2010
+doc-2-74,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Expert Witness Reports,2017
+doc-6-36,Other,Educational or Professional Licensing Data,Vitae,2009
+doc-2-53,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics",Depositions,Not known
+doc-2-3,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Other",Expert Witness Reports,2023
+doc-11-43,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-9-16,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Other,2020
+doc-6-14,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2010
+doc-11-46,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-6-3,Neither Party is a Covered Entity,"Financial Data, Other",Expert Witness Reports,2023
+doc-10-32,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2022
+doc-10-23,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-11-42,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Settlement Agreements,2019
+doc-5-11,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-5-37,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2004
+doc-3-3,Other,Other,Expert Witness Reports,Not known
+doc-2-100,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-2-33,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2020
+doc-10-35,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2005
+doc-9-09,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2017
+doc-12-63,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Court Rulings/Decisions,2018
+doc-2-37,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Depositions,2023
+doc-6-52,Other,Educational or Professional Licensing Data,Vitae,2010
+doc-5-55,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2011
+doc-6-38,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2009
+doc-7-1,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-2-16,Neither Party is a Covered Entity,Not applicable,Depositions,Not known
+doc-5-34,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Legal or Criminal Information",Expert Witness Reports,2023
+doc-7-7,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-5-73,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-2-42,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2019
+doc-6-56,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-5-65,Business Associate of Covered Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Depositions,2012
+doc-6-4,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2009
+doc-6-54,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics, Medical information not covered by HIPAA",Expert Witness Reports,2005
+doc-2-79,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2010
+doc-5-9,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Financial Data",Expert Witness Reports,2023
+doc-11-44,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2022
+doc-10-22,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2004
+doc-5-66,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-2-11,Neither Party is a Covered Entity,Not applicable,Depositions,2022
+doc-2-40,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2015
+doc-5-26,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-12-60,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-7-5,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-2-1,Other,Educational or Professional Licensing Data,Vitae,2010
+doc-5-3,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Financial Data",Expert Witness Reports,2021
+doc-2-88,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2022
+doc-2-97,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2019
+doc-8-17,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-5-5,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2019
+doc-2-60,Neither Party is a Covered Entity,Medical information not covered by HIPAA,Depositions,2011
+doc-5-52,Neither Party is a Covered Entity,"Financial Data, Medical information not covered by HIPAA",Expert Witness Reports,2011
+doc-6-9,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Expert Witness Reports,2018
+doc-8-2,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-5-12,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-2-86,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2011
+doc-3-11,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2022
+doc-3-18,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-2-5,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-2-26,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Educational or Professional Licensing Data, Other",Depositions,2023
+doc-9-15,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2019
+doc-5-54,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-5-14,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-1-3,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,Not known
+doc-3-8,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2006
+doc-2-41,Other,Not applicable,Vitae,2013
+doc-5-64,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Expert Witness Reports,2019
+doc-5-83,Neither Party is a Covered Entity,"Financial Data, Credit Information",Expert Witness Reports,2016
+doc-9-17,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Court Rulings/Decisions,Other
+doc-2-39,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-2-83,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2010
+doc-6-6,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2008
+doc-3-33,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-5-58,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2020
+doc-2-50,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2014
+doc-3-19,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2023
+doc-4-13,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-2-95,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,Not known
+doc-12-64,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,Other
+doc-5-2,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-6-41,Individual vs. Health Insurance Plan (Covered Entity),Financial Data,Expert Witness Reports,2020
+doc-5-79,Other,Not applicable,Vitae,2023
+doc-10-29,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2021
+doc-6-50,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2010
+doc-11-45,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2013
+doc-11-50,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,2019
+doc-5-72,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,Not known
+doc-3-22,Government vs. Healthcare Entity (Covered Entity),"Educational or Professional Licensing Data, Other",Depositions,2023
+doc-5-70,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Depositions,2023
+doc-6-37,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,Not known
+doc-6-45,Other,Educational or Professional Licensing Data,Vitae,2010
+doc-3-2,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)","Depositions, Expert Witness Reports",2023
+doc-2-13,Neither Party is a Covered Entity,"Internet or Network Activity, Demographics",Expert Witness Reports,2009
+doc-8-11,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2010
+doc-2-91,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data","Depositions, Expert Witness Reports",2011
+doc-6-8,Other,Educational or Professional Licensing Data,Expert Witness Reports,2018
+doc-13-69,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,2007
+doc-6-78,Other,Not applicable,Vitae,2023
+doc-11-55,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2023
+doc-6-11,Neither Party is a Covered Entity,"Financial Data, Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-6-39,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2018
+doc-5-41,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,Not known
+doc-5-40,Other,"Personal Health Information (including biometrics, DNA)",Vitae,2023
+doc-6-35,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2016
+doc-3-39,Neither Party is a Covered Entity,Financial Data,Expert Witness Reports,2014
+doc-3-26,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2023
+doc-6-71,Individual vs. Health Insurance Plan (Covered Entity),Other,Expert Witness Reports,2023
+doc-5-42,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2010
+doc-9-10,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-9-08,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,2013
+doc-2-59,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Depositions,2018
+doc-10-28,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-9-01,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,Not known
+doc-2-89,Neither Party is a Covered Entity,Legal or Criminal Information,Depositions,2015
+doc-6-31,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Educational or Professional Licensing Data",Vitae,2015
+doc-2-62,Other,Educational or Professional Licensing Data,Expert Witness Reports,2019
+doc-5-23,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-13-76,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-7-8,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics, Financial Data",Expert Witness Reports,2022
+doc-5-10,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2006
+doc-6-77,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,Not known
+doc-11-49,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2022
+doc-3-27,Government vs. Healthcare Entity (Covered Entity),Educational or Professional Licensing Data,Vitae,Not known
+doc-5-49,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2021
+doc-5-33,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2019
+doc-5-57,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2011
+doc-5-24,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2013
+doc-8-10,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-4-5,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2011
+doc-2-69,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-2-80,Neither Party is a Covered Entity,Not applicable,Depositions,2013
+doc-8-20,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Other",Expert Witness Reports,2023
+doc-3-6,Government vs. Healthcare Entity (Covered Entity),Legal or Criminal Information,Expert Witness Reports,2014
+doc-6-80,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Vitae,2015
+doc-6-22,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-4-8,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data","Depositions, Expert Witness Reports",2019
+doc-6-76,Other,Not applicable,Vitae,2023
+doc-5-36,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-5-75,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Financial Data",Expert Witness Reports,2016
+doc-2-77,Neither Party is a Covered Entity,Legal or Criminal Information,Depositions,2017
+doc-3-4,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-6-68,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Depositions,2013
+doc-10-38,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,2020
+doc-5-68,Other,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-2-35,Other,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-6-59,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2012
+doc-3-24,Other,Legal or Criminal Information,Expert Witness Reports,2022
+doc-8-12,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-6-61,Other,Educational or Professional Licensing Data,Vitae,2023
+doc-6-33,Other,Not applicable,Vitae,2023
+doc-2-29,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2022
+doc-10-24,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Court Rulings/Decisions,2023
+doc-2-8,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2015
+doc-11-47,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,Other
+doc-12-59,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-3-43,Other,Not applicable,Expert Witness Reports,2022
+doc-2-20,Neither Party is a Covered Entity,Not applicable,Depositions,Not known
+doc-6-49,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2022
+doc-6-73,Individual vs. Health Insurance Plan (Covered Entity),Financial Data,Depositions,2011
+doc-12-65,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2010
+doc-6-58,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Legal or Criminal Information",Expert Witness Reports,2023
+doc-13-73,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2023
+doc-4-10,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Expert Witness Reports,2020
+doc-3-7,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Expert Witness Reports,2023
+doc-5-61,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2023
+doc-5-71,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-3-30,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Vitae,2009
+doc-5-77,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2022
+doc-9-13,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-4-11,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-4-1,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,Not known
+doc-11-51,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2020
+doc-4-15,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2020
+doc-9-07,Neither Party is a Covered Entity,Not applicable,Court Rulings/Decisions,2022
+doc-11-56,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-2-15,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2014
+doc-5-39,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-6-79,Other,Educational or Professional Licensing Data,Vitae,2011
+doc-6-24,Other,Educational or Professional Licensing Data,Vitae,2023
+doc-5-38,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Educational or Professional Licensing Data",Expert Witness Reports,2014
+doc-7-4,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2023
+doc-3-25,Government vs. Healthcare Entity (Covered Entity),Financial Data,Expert Witness Reports,2009
+doc-5-98,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2019
+doc-4-3,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-2-94,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Demographics, Financial Data, Legal or Criminal Information",Expert Witness Reports,2022
+doc-2-22,Other,"Personal Health Information (including biometrics, DNA), Financial Data, Internet or Network Activity, Legal or Criminal Information",Expert Witness Reports,2015
+doc-5-22,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2020
+doc-13-78,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,Not known
+doc-6-17,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,Not known
+doc-13-72,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,Other
+doc-9-11,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2018
+doc-6-48,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2023
+doc-11-58,Neither Party is a Covered Entity,"Financial Data, Other",Court Rulings/Decisions,2021
+doc-6-21,Other,Educational or Professional Licensing Data,Expert Witness Reports,Not known
+doc-5-100,Neither Party is a Covered Entity,Legal or Criminal Information,Expert Witness Reports,2015
+doc-5-74,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2017
+doc-2-72,Neither Party is a Covered Entity,"Geo-location or GPS Data, Internet or Network Activity, Other",Expert Witness Reports,Not known
+doc-6-60,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2018
+doc-2-64,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2018
+doc-2-48,Other,"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Vitae,2023
+doc-2-49,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2013
+doc-9-03,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Court Rulings/Decisions,Other
+doc-2-24,Neither Party is a Covered Entity,Legal or Criminal Information,Depositions,2022
+doc-3-15,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2023
+doc-5-46,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2020
+doc-3-31,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2010
+doc-6-67,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Expert Witness Reports,2008
+doc-8-15,Business Associate of Covered Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2022
+doc-6-64,Other,Educational or Professional Licensing Data,Vitae,2011
+doc-3-21,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data, Legal or Criminal Information",Expert Witness Reports,2016
+doc-5-93,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2016
+doc-6-27,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics, Educational or Professional Licensing Data",Expert Witness Reports,2006
+doc-6-72,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2011
+doc-2-47,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2011
+doc-5-44,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Expert Witness Reports,2021
+doc-5-69,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Expert Witness Reports,2021
+doc-2-96,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Other",Expert Witness Reports,2018
+doc-6-7,Other,Educational or Professional Licensing Data,Expert Witness Reports,2018
+doc-4-12,Neither Party is a Covered Entity,Not applicable,Depositions,2022
+doc-6-43,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,2021
+doc-5-92,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2022
+doc-3-13,Individual vs. Healthcare Provider (Covered Entity),"Educational or Professional Licensing Data, Other","Depositions, Expert Witness Reports",2016
+doc-2-2,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-10-37,Neither Party is a Covered Entity,Legal or Criminal Information,Court Rulings/Decisions,2011
+doc-5-76,Other,Not applicable,Expert Witness Reports,Not known
+doc-5-88,Other,Educational or Professional Licensing Data,Vitae,Not known
+doc-5-89,Other,"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,2020
+doc-11-41,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Court Rulings/Decisions,Other
+doc-10-27,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,2004
+doc-2-63,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2023
+doc-6-2,Neither Party is a Covered Entity,Educational or Professional Licensing Data,Vitae,2023
+doc-6-20,Other,Educational or Professional Licensing Data,Expert Witness Reports,2013
+doc-5-80,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2020
+doc-2-93,Individual vs. Health Insurance Plan (Covered Entity),"Internet or Network Activity, Legal or Criminal Information",Expert Witness Reports,2023
+doc-3-37,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2020
+doc-5-35,Healthcare Provider vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2021
+doc-5-43,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2018
+doc-6-15,Neither Party is a Covered Entity,"Internet or Network Activity, Other",Expert Witness Reports,2022
+doc-2-76,Neither Party is a Covered Entity,"Financial Data, Legal or Criminal Information",Expert Witness Reports,2017
+doc-3-38,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information","Depositions, Expert Witness Reports",2010
+doc-5-7,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Expert Witness Reports,2023
+doc-6-53,Other,Educational or Professional Licensing Data,Vitae,2010
+doc-6-75,Government vs. Healthcare Entity (Covered Entity),Educational or Professional Licensing Data,Expert Witness Reports,2019
+doc-2-21,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2010
+doc-10-26,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-9-12,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Legal or Criminal Information",Court Rulings/Decisions,2020
+doc-6-18,Other,Educational or Professional Licensing Data,"Expert Witness Reports, Vitae",2012
+doc-7-2,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Demographics",Expert Witness Reports,Not known
+doc-4-14,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2010
+doc-6-55,Individual vs. Healthcare Provider (Covered Entity),Educational or Professional Licensing Data,Vitae,2012
+doc-2-55,Neither Party is a Covered Entity,Not applicable,Expert Witness Reports,Not known
+doc-3-32,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA)",Depositions,2020
+doc-2-51,Neither Party is a Covered Entity,Not applicable,Vitae,2017
+doc-3-14,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Depositions,2016
+doc-5-29,Neither Party is a Covered Entity,"Demographics, Financial Data, Other",Expert Witness Reports,2017
+doc-5-86,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2023
+doc-5-32,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA)",Expert Witness Reports,2017
+doc-5-97,Other,Educational or Professional Licensing Data,Expert Witness Reports,2008
+doc-12-61,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Not known
+doc-9-05,Individual vs. Health Insurance Plan (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Court Rulings/Decisions,2021
+doc-9-04,Individual vs. Healthcare Provider (Covered Entity),"Personal Health Information (including biometrics, DNA)",Court Rulings/Decisions,Other
+doc-2-57,Neither Party is a Covered Entity,"Personal Health Information (including biometrics, DNA), Educational or Professional Licensing Data",Depositions,2019
+doc-2-27,Government vs. Healthcare Entity (Covered Entity),"Personal Health Information (including biometrics, DNA), Financial Data",Expert Witness Reports,2019

@@ -1,0 +1,16 @@
+# Ignore environment variables file
+.env
+
+# Ignore virtual environment directories
+# (Will allow venv folder in github for now, see README.md)
+#pdf-analysis/
+#venv/
+
+# Python cache and compiled files and DS_Store files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore the large folder of pdfs
+2-cases-database/
+#Use small sample of pdfs for testing in: 5-test-pdf-files/

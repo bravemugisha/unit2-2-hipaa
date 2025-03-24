@@ -1,0 +1,8 @@
+pandas
+pyyaml
+openai
+pdfplumber
+requests
+striprtf
+python-dotenv
+PyPDF2
