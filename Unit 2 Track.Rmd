@@ -14,8 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(dplyr)
 library(stringr)
-form1human <- read_csv("~/Desktop/gov1430/1-form1human.csv")
-View(X1_form1human)
+form1human <- read_csv("~/Desktop/gov1430/1-form1human.csv")%>%
+  mutate(evaluator= "human")
 
 # Check column names to find the correct column
 colnames(form1human)
@@ -47,7 +47,50 @@ form1human <- form1human %>%
     .default= "other"
     ))
 
+colnames(form1human)
+#Ensure doc ids are lower case
+form1human <- form1human %>%
+  mutate(`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.` = 
+           str_to_lower(`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.`))
+
 ```
+
+```{r}
+#load in claude model
+form1claude<-read_csv("claude_results.csv")%>%
+  mutate(Personal_Health_Information = as.integer(str_detect(`kind of personal data involved in the case response`, "personal health information")))%>%
+  mutate(Demographics= as.integer(str_detect(`kind of personal data involved in the case response`, "demographics")))%>%
+  mutate(Education_or_Licensing= as.integer(str_detect(`kind of personal data involved in the case response`, "educational or professional licensing data")))%>%
+  mutate(Financial= as.integer(str_detect(`kind of personal data involved in the case response`, "financial data")))%>%
+  mutate(Real_Estate= as.integer(str_detect(`kind of personal data involved in the case response`, "real estate information")))%>%
+   mutate(Credit= as.integer(str_detect(`kind of personal data involved in the case response`, "credit information")))%>%
+   mutate(Internet_Network= as.integer(str_detect(`kind of personal data involved in the case response`, "internet or network activity")))%>%
+  mutate(Location= as.integer(str_detect(`kind of personal data involved in the case response`, "geo-location or gps data")))%>%
+    mutate(Legal= as.integer(str_detect(`kind of personal data involved in the case response`, "legal or criminal information")))%>%
+    mutate(Online_Social= as.integer(str_detect(`kind of personal data involved in the case response`, "social media or online content")))%>%
+  mutate(Not_Applicable= as.integer(str_detect(`kind of personal data involved in the case response`, "not applicable")))%>%
+  mutate(non_HIPAA_Medical= as.integer(str_detect(`kind of personal data involved in the case response`, "medical information not covered by hipaa")))
+
+#Add a column for whether a covered entity was involved or not
+form1claude <- form1claude %>%
+  mutate(Covered_Entity_Involved= case_when (
+    `parties involved response`== "neither party is a covered entity" ~ "0", 
+    `parties involved response`== "individual vs. healthcare provider" ~ "1", 
+    `parties involved response`== "healthcare provider vs. health insurance plan" ~ "1", 
+    `parties involved response`== "government vs. healthcare entity" ~ "1", 
+    `parties involved response`== "business associate of covered entity" ~ "1",
+    `parties involved response`== "healthcare provider vs. healthcare provider" ~ "1",
+   `parties involved response`=="health insurance plan vs. healthcare provider"~ "1",
+   `parties involved response`=="individual vs. government vs. healthcare entity"~ "1",
+   `parties involved response`=="individual vs. health insurance plan"~ "1",
+    .default= "other"
+    ))
+
+
+
+```
+
+
 
 ```{r}
 #Scratch work
@@ -92,6 +135,75 @@ duplicate_doc_id<-unique_rows_var_of_interest%>%
 
 duplicate_docID_rows<-unique_rows_var_of_interest%>%
   filter(docID %in% duplicate_doc_id)
+
+```
+
+
+
+```{r}
+form1human_wrangled<-form1human%>%
+  rename("docID"="DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters." )%>%
+  #deselect variables that are not of interest to us
+  select(-c ("Legal Issue","Document Type","Date of Document or Case","Date of Document or Case", "Something interesting? Potential Problematic Strategic Use of HIPAA. This applies to cases where HIPAA is being used to undermine lawsuits that seeks to assert individual rights (e.g. lawsuits about environmental harms, workplace injuries or drug harms or just feels \"creepy\") [OPTIONAL]", "...9","...10", "...11", "...12","...13","...14", "Type of court.", "Parties Involved. Look at the top of the form for the parties involved in the case.","Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute." ))
+
+
+form1claude_wrangled<-form1claude%>%
+  rename("docID"="document id" )%>%
+  select(- c("type of court response","type of court reasoning","parties involved response", "parties involved reasoning","kind of personal data involved in the case response", "kind of personal data involved in the case reasoning","date of document or case response","date of document or case reasoning" ,"document type response",  "document type reasoning" ,"something interesting response", "something interesting reasoning", "does this document contain expert opinions, credentials, or testimony response" ,  "does this document contain expert opinions, credentials, or testimony reasoning"))
+
+#make a combined dataset of human and AI evaluations
+
+combined_wrangled_dataset<-bind_rows(form1claude_wrangled, form1human_wrangled)
+
+  
+  colnames(combined_wrangled_dataset)
+```
+```{r}
+#finding what the most frequently reported values are in each column for each unique docid
+
+
+# List of columns to compute majority response
+cols_to_summarize <- c("Personal_Health_Information", "Demographics", "Education_or_Licensing", 
+                       "Financial", "Real_Estate", "Credit", "Internet_Network", "Location", 
+                       "Legal", "Online_Social", "Not_Applicable", "non_HIPAA_Medical", 
+                       "Covered_Entity_Involved")
+
+# Function to get majority response or flag even ties
+get_majority_or_flag <- function(x) {
+  x <- na.omit(x)  # Remove NA values
+  if (length(x) == 0) return("Not found- NA")  # If all values are NA
+  value_counts <- table(x)
+  max_count <- max(value_counts)
+  most_frequent <- names(value_counts[value_counts == max_count])
+  if (length(most_frequent) > 1) {
+    return("Not found- EVEN")
+  } else {
+    return(most_frequent[1])
+  }
+}
+
+# Compute majority response per docID (include all docIDs)
+majority_response_per_docID <- combined_wrangled_dataset %>%
+  group_by(docID) %>%
+  summarize(across(all_of(cols_to_summarize), get_majority_or_flag), .groups = "drop")
+
+# View the resulting dataset
+head(majority_response_per_docID)
+
+```
+
+```{r}
+library(ggplot2)
+ggplot(majority_response_per_docID, mapping=aes(x=Personal_Health_Information))+
+  geom_bar()
+
+ggplot(majority_response_per_docID, mapping=aes(x=non_HIPAA_Medical))+
+  geom_bar()
+
+
+ggplot(majority_response_per_docID, mapping=aes(x=Covered_Entity_Involved))+
+  geom_bar()
+
 
 ```
 
