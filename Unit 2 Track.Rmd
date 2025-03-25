@@ -90,54 +90,37 @@ form1claude <- form1claude %>%
 
 ```
 
-
-
 ```{r}
-#Scratch work
-               
-
-#finding unique number of docs
-num_docs<-length(unique(form1human$`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.`))
-
-#finding number of unique PHI, covered entity, and Doc ID combos
-filtered_data<-form1human%>%
-  select(`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.`, Personal_Health_Information,Covered_Entity_Involved)%>%
-  unique()
-
-
-
-filtered_data%>%
-  group_by(`DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters.`)%>%
-  count()%>%
-  group_by(n)%>%
-  count()
-```
 ```{r}
-#data set to identify duplicates
-colnames(form1human)
+#Adding gpt dataset
+form1gpt <- read_csv("gpt-4o.csv")%>%
+  mutate(Personal_Health_Information = as.integer(str_detect(`KindOfPersonalData`, "Personal Health Information")))%>%
+  mutate(Demographics= as.integer(str_detect(`KindOfPersonalData`, "Demographics")))%>%
+  mutate(Education_or_Licensing= as.integer(str_detect(`KindOfPersonalData`, "Educational or Professional Licensing Data")))%>%
+  mutate(Financial= as.integer(str_detect(`KindOfPersonalData`, "Financial Data")))%>%
+  mutate(Real_Estate= as.integer(str_detect(`KindOfPersonalData`, "Real Estate Information")))%>%
+   mutate(Credit= as.integer(str_detect(`KindOfPersonalData`, "Credit Information")))%>%
+   mutate(Internet_Network= as.integer(str_detect(`KindOfPersonalData`, "Internet or Network Activity")))%>%
+  mutate(Location= as.integer(str_detect(`KindOfPersonalData`, "Geo-location or GPS Data")))%>%
+    mutate(Legal= as.integer(str_detect(`KindOfPersonalData`, "Legal or Criminal Information")))%>%
+    mutate(Online_Social= as.integer(str_detect(`KindOfPersonalData`, "Social Media or Online Content")))%>%
+  mutate(Not_Applicable= as.integer(str_detect(`KindOfPersonalData`, "Not applicable")))%>%
+  mutate(non_HIPAA_Medical= as.integer(str_detect(`KindOfPersonalData`, "Medical information not covered by HIPAA")))
 
+#Add a column for whether a covered entity was involved or not
+form1gpt <- form1gpt %>%
+  mutate(Covered_Entity_Involved= case_when(
+    `PartiesInvolved`== "Neither Party is a Covered Entity" ~ "0", 
+    `PartiesInvolved`== "Individual vs. Healthcare Provider (Covered Entity)" ~ "1", 
+    `PartiesInvolved`== "Individual vs. Health Insurance Plan (Covered Entity)" ~ "1", 
+    `PartiesInvolved`== "Government vs. Healthcare Entity (Covered Entity)" ~ "1", 
+    `PartiesInvolved`== "Business Associate of Covered Entity (Covered Entity)" ~ "1",
+    `PartiesInvolved`== "Healthcare Provider vs. Healthcare Provider (Covered Entity)" ~ "1",
+    .default= "other"
+    ))
 
-unique_rows_var_of_interest<-form1human%>%
-  rename("docID"="DocumentID (has format doc-x-xx). \n\nWrite \"doc-x-xx\" with the x's having the appropriate numbers for the document you are reviewing. Include the \"doc-\" prefix. Use lowercase letters." )%>%
-  #deselect variables that are not of interest to us
-  select(-c ("Legal Issue","Document Type","Date of Document or Case","Date of Document or Case", "Something interesting? Potential Problematic Strategic Use of HIPAA. This applies to cases where HIPAA is being used to undermine lawsuits that seeks to assert individual rights (e.g. lawsuits about environmental harms, workplace injuries or drug harms or just feels \"creepy\") [OPTIONAL]", "...9","...10", "...11", "...12","...13","...14", "Type of court.", "Parties Involved. Look at the top of the form for the parties involved in the case.","Kind of personal data involved in the case (select all that apply). This is the data that is the subject of the dispute.","Demographics", "Education_or_Licensing","Financial", "Real_Estate","Credit","Internet_Network","Location" ,"Legal", "Online_Social", "Not_Applicable", "non_HIPAA_Medical" ))%>%
-  unique()%>%
-  arrange(docID)
-
-
-
-duplicate_doc_id<-unique_rows_var_of_interest%>%
-  group_by(docID)%>%
-  count()%>%
-  filter(n>1)%>%
-  select(docID)%>%
-   pull(docID)  # Use pull to extract the docID as a vector
-
-duplicate_docID_rows<-unique_rows_var_of_interest%>%
-  filter(docID %in% duplicate_doc_id)
 
 ```
-
 
 
 ```{r}
@@ -151,12 +134,16 @@ form1claude_wrangled<-form1claude%>%
   rename("docID"="document id" )%>%
   select(- c("type of court response","type of court reasoning","parties involved response", "parties involved reasoning","kind of personal data involved in the case response", "kind of personal data involved in the case reasoning","date of document or case response","date of document or case reasoning" ,"document type response",  "document type reasoning" ,"something interesting response", "something interesting reasoning", "does this document contain expert opinions, credentials, or testimony response" ,  "does this document contain expert opinions, credentials, or testimony reasoning"))
 
+form1gpt_wrangled<-form1gpt%>%
+  rename("docID"="DocumentID" )%>%
+  select(- c("DocumentType", "DateOfDocumentOrCase", "KindOfPersonalData"))
+
 #make a combined dataset of human and AI evaluations
 
-combined_wrangled_dataset<-bind_rows(form1claude_wrangled, form1human_wrangled)
+combined_wrangled_dataset<-bind_rows(form1claude_wrangled, form1human_wrangled, form1gpt_wrangled)%>%
+  drop_na(docID)
 
-  
-  colnames(combined_wrangled_dataset)
+
 ```
 ```{r}
 #finding what the most frequently reported values are in each column for each unique docid
@@ -176,7 +163,7 @@ get_majority_or_flag <- function(x) {
   max_count <- max(value_counts)
   most_frequent <- names(value_counts[value_counts == max_count])
   if (length(most_frequent) > 1) {
-    return("Not found- EVEN")
+    return("Tied Response")
   } else {
     return(most_frequent[1])
   }
@@ -194,6 +181,7 @@ head(majority_response_per_docID)
 
 ```{r}
 library(ggplot2)
+library(tidyr)
 ggplot(majority_response_per_docID, mapping=aes(x=Personal_Health_Information))+
   geom_bar()
 
@@ -201,9 +189,65 @@ ggplot(majority_response_per_docID, mapping=aes(x=non_HIPAA_Medical))+
   geom_bar()
 
 
-ggplot(majority_response_per_docID, mapping=aes(x=Covered_Entity_Involved))+
-  geom_bar()
+
+# Map values for better labeling
+majority_response_per_docID <- majority_response_per_docID %>%
+  mutate(Covered_Entity_Involved = case_when(
+    Covered_Entity_Involved == "0" ~ "No Covered Entities ",
+    Covered_Entity_Involved == "1" ~ "At Least One Covered Entity",
+    Covered_Entity_Involved == "other" ~ "Other",
+    Covered_Entity_Involved == "Tied Response" ~ "Tied Response",
+    TRUE ~ Covered_Entity_Involved
+  ))
+
+# Create the bar plot
+ggplot(majority_response_per_docID, mapping = aes(x = Covered_Entity_Involved)) +
+  geom_bar() +
+  geom_text(stat = 'count', aes(label = after_stat(count)), vjust = -0.5) +
+  labs(title = "Covered Entity Involvement in Cases which Mention HIPAA", 
+       x = "Covered Entity Involvement", 
+       y = "Count") +
+  theme_minimal()
 
 
+# List of columns to compute majority response
+cols_graph_2<- c("Personal_Health_Information", "Demographics", "Education_or_Licensing", 
+                       "Financial", "Real_Estate", "Credit", "Internet_Network", "Location", 
+                       "Legal", "Online_Social", "Not_Applicable", "non_HIPAA_Medical" )
+
+# Reshape the data for visualization
+majority_long <- majority_response_per_docID %>%
+  pivot_longer(cols = all_of(cols_graph_2), 
+               names_to = "Variable", 
+               values_to = "Response")
+# Create the proportional bar plot
+ggplot(majority_long, aes(x = Variable, fill = Response)) +
+  geom_bar(position = "fill") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(title = "Proportions of Responses Across Variables",
+       x = "Variable",
+       y = "Proportion",
+       fill = "Response") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+majority_long$Response <- factor(majority_long$Response, 
+                                 levels = c( "Tied Response", "0", "1"))
+ggplot(majority_long, aes(x = Variable, fill = Response)) +
+  geom_bar(position = "fill") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  scale_fill_manual(
+    values = c("Tied Response" = "lightblue", "0" = "grey", "1" = "darkgreen" ),
+    labels = c("0" = "Not Mentioned", "1" = "Mentioned", "Tied Response" = "Tied Response")
+  ) +
+  labs(title = "Types of Data Involved in Cases Mentioning HIPAA",
+       x = "Variable",
+       y = "Proportion",
+       fill = "Response") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+
+
 
