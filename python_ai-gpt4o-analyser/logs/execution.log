@@ -1,0 +1,514 @@
+2025-03-31 16:37:06,310 - INFO - Starting to process files in /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files
+2025-03-31 16:37:06,312 - INFO - 
+Processing file: doc-1-1-Dennis_RUTHERFORD,_v._PALO_VERDE_HEALTH_CARE...,_2015_WL_11143173....pdf
+2025-03-31 16:37:06,312 - INFO - Document ID: doc-1-1
+2025-03-31 16:37:06,312 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-1-Dennis_RUTHERFORD,_v._PALO_VERDE_HEALTH_CARE...,_2015_WL_11143173....pdf
+2025-03-31 16:37:06,313 - INFO - Number of pages: 6
+2025-03-31 16:37:06,322 - INFO - Extracting text on page 1 of 6
+2025-03-31 16:37:06,322 - INFO - Success extracting text
+2025-03-31 16:37:06,330 - INFO - Extracting text on page 2 of 6
+2025-03-31 16:37:06,330 - INFO - Success extracting text
+2025-03-31 16:37:06,342 - INFO - Extracting text on page 3 of 6
+2025-03-31 16:37:06,342 - INFO - Success extracting text
+2025-03-31 16:37:06,353 - INFO - Extracting text on page 4 of 6
+2025-03-31 16:37:06,353 - INFO - Success extracting text
+2025-03-31 16:37:06,367 - INFO - Extracting text on page 5 of 6
+2025-03-31 16:37:06,367 - INFO - Success extracting text
+2025-03-31 16:37:06,370 - INFO - Extracting text on page 6 of 6
+2025-03-31 16:37:06,371 - INFO - Success extracting text
+2025-03-31 16:37:06,371 - INFO - Extracted text length: 20095 characters
+2025-03-31 16:37:06,373 - INFO - 
+Processing file: doc-1-2-SAGUARO_MEDICAL_ASSOCIATES,_P.C.,_v._Banner_HEALTH.,_2009_WL_6057070_(2009).pdf
+2025-03-31 16:37:06,373 - INFO - Document ID: doc-1-2
+2025-03-31 16:37:06,373 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-2-SAGUARO_MEDICAL_ASSOCIATES,_P.C.,_v._Banner_HEALTH.,_2009_WL_6057070_(2009).pdf
+2025-03-31 16:37:06,376 - INFO - Number of pages: 30
+2025-03-31 16:37:06,387 - INFO - Extracting text on page 1 of 30
+2025-03-31 16:37:06,387 - INFO - Success extracting text
+2025-03-31 16:37:06,397 - INFO - Extracting text on page 2 of 30
+2025-03-31 16:37:06,397 - INFO - Success extracting text
+2025-03-31 16:37:06,406 - INFO - Extracting text on page 3 of 30
+2025-03-31 16:37:06,406 - INFO - Success extracting text
+2025-03-31 16:37:06,414 - INFO - Extracting text on page 4 of 30
+2025-03-31 16:37:06,414 - INFO - Success extracting text
+2025-03-31 16:37:06,422 - INFO - Extracting text on page 5 of 30
+2025-03-31 16:37:06,423 - INFO - Success extracting text
+2025-03-31 16:37:06,433 - INFO - Extracting text on page 6 of 30
+2025-03-31 16:37:06,433 - INFO - Success extracting text
+2025-03-31 16:37:06,443 - INFO - Extracting text on page 7 of 30
+2025-03-31 16:37:06,443 - INFO - Success extracting text
+2025-03-31 16:37:06,453 - INFO - Extracting text on page 8 of 30
+2025-03-31 16:37:06,453 - INFO - Success extracting text
+2025-03-31 16:37:06,461 - INFO - Extracting text on page 9 of 30
+2025-03-31 16:37:06,461 - INFO - Success extracting text
+2025-03-31 16:37:06,471 - INFO - Extracting text on page 10 of 30
+2025-03-31 16:37:06,471 - INFO - Success extracting text
+2025-03-31 16:37:06,480 - INFO - Extracting text on page 11 of 30
+2025-03-31 16:37:06,480 - INFO - Success extracting text
+2025-03-31 16:37:06,492 - INFO - Extracting text on page 12 of 30
+2025-03-31 16:37:06,492 - INFO - Success extracting text
+2025-03-31 16:37:06,503 - INFO - Extracting text on page 13 of 30
+2025-03-31 16:37:06,503 - INFO - Success extracting text
+2025-03-31 16:37:06,515 - INFO - Extracting text on page 14 of 30
+2025-03-31 16:37:06,515 - INFO - Success extracting text
+2025-03-31 16:37:06,523 - INFO - Extracting text on page 15 of 30
+2025-03-31 16:37:06,524 - INFO - Success extracting text
+2025-03-31 16:37:06,532 - INFO - Extracting text on page 16 of 30
+2025-03-31 16:37:06,532 - INFO - Success extracting text
+2025-03-31 16:37:06,539 - INFO - Extracting text on page 17 of 30
+2025-03-31 16:37:06,539 - INFO - Success extracting text
+2025-03-31 16:37:06,546 - INFO - Extracting text on page 18 of 30
+2025-03-31 16:37:06,546 - INFO - Success extracting text
+2025-03-31 16:37:06,552 - INFO - Extracting text on page 19 of 30
+2025-03-31 16:37:06,552 - INFO - Success extracting text
+2025-03-31 16:37:06,559 - INFO - Extracting text on page 20 of 30
+2025-03-31 16:37:06,559 - INFO - Success extracting text
+2025-03-31 16:37:06,565 - INFO - Extracting text on page 21 of 30
+2025-03-31 16:37:06,565 - INFO - Success extracting text
+2025-03-31 16:37:06,571 - INFO - Extracting text on page 22 of 30
+2025-03-31 16:37:06,572 - INFO - Success extracting text
+2025-03-31 16:37:06,578 - INFO - Extracting text on page 23 of 30
+2025-03-31 16:37:06,578 - INFO - Success extracting text
+2025-03-31 16:37:06,584 - INFO - Extracting text on page 24 of 30
+2025-03-31 16:37:06,584 - INFO - Success extracting text
+2025-03-31 16:37:06,590 - INFO - Extracting text on page 25 of 30
+2025-03-31 16:37:06,590 - INFO - Success extracting text
+2025-03-31 16:37:06,596 - INFO - Extracting text on page 26 of 30
+2025-03-31 16:37:06,597 - INFO - Success extracting text
+2025-03-31 16:37:06,604 - INFO - Extracting text on page 27 of 30
+2025-03-31 16:37:06,604 - INFO - Success extracting text
+2025-03-31 16:37:06,611 - INFO - Extracting text on page 28 of 30
+2025-03-31 16:37:06,611 - INFO - Success extracting text
+2025-03-31 16:37:06,618 - INFO - Extracting text on page 29 of 30
+2025-03-31 16:37:06,618 - INFO - Success extracting text
+2025-03-31 16:37:06,623 - INFO - Extracting text on page 30 of 30
+2025-03-31 16:37:06,623 - INFO - Success extracting text
+2025-03-31 16:37:06,623 - INFO - Extracted text length: 95138 characters
+2025-03-31 16:37:06,624 - INFO - 
+Processing file: doc-1-3-MAIER,_v._GREEN_et_al.,_2006_WL_6659778_(2006).pdf
+2025-03-31 16:37:06,624 - INFO - Document ID: doc-1-3
+2025-03-31 16:37:06,624 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-3-MAIER,_v._GREEN_et_al.,_2006_WL_6659778_(2006).pdf
+2025-03-31 16:37:06,626 - INFO - Number of pages: 9
+2025-03-31 16:37:06,634 - INFO - Extracting text on page 1 of 9
+2025-03-31 16:37:06,634 - INFO - Success extracting text
+2025-03-31 16:37:06,645 - INFO - Extracting text on page 2 of 9
+2025-03-31 16:37:06,645 - INFO - Success extracting text
+2025-03-31 16:37:06,654 - INFO - Extracting text on page 3 of 9
+2025-03-31 16:37:06,654 - INFO - Success extracting text
+2025-03-31 16:37:06,666 - INFO - Extracting text on page 4 of 9
+2025-03-31 16:37:06,666 - INFO - Success extracting text
+2025-03-31 16:37:06,679 - INFO - Extracting text on page 5 of 9
+2025-03-31 16:37:06,679 - INFO - Success extracting text
+2025-03-31 16:37:06,688 - INFO - Extracting text on page 6 of 9
+2025-03-31 16:37:06,688 - INFO - Success extracting text
+2025-03-31 16:37:06,697 - INFO - Extracting text on page 7 of 9
+2025-03-31 16:37:06,697 - INFO - Success extracting text
+2025-03-31 16:37:06,705 - INFO - Extracting text on page 8 of 9
+2025-03-31 16:37:06,705 - INFO - Success extracting text
+2025-03-31 16:37:06,713 - INFO - Extracting text on page 9 of 9
+2025-03-31 16:37:06,713 - INFO - Success extracting text
+2025-03-31 16:37:06,713 - INFO - Extracted text length: 33375 characters
+2025-03-31 16:37:06,714 - INFO - 
+Processing file: doc-1-4-PGH_GLOBAL_(CAYMAN)_LIMITED,_Plaintiff,_v._LIQUID...,_2018_WL_3822751....pdf
+2025-03-31 16:37:06,714 - INFO - Document ID: doc-1-4
+2025-03-31 16:37:06,714 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-4-PGH_GLOBAL_(CAYMAN)_LIMITED,_Plaintiff,_v._LIQUID...,_2018_WL_3822751....pdf
+2025-03-31 16:37:06,717 - INFO - Number of pages: 37
+2025-03-31 16:37:06,723 - INFO - Extracting text on page 1 of 37
+2025-03-31 16:37:06,724 - INFO - Success extracting text
+2025-03-31 16:37:06,728 - INFO - Extracting text on page 2 of 37
+2025-03-31 16:37:06,728 - INFO - Success extracting text
+2025-03-31 16:37:06,736 - INFO - Extracting text on page 3 of 37
+2025-03-31 16:37:06,736 - INFO - Success extracting text
+2025-03-31 16:37:06,747 - INFO - Extracting text on page 4 of 37
+2025-03-31 16:37:06,747 - INFO - Success extracting text
+2025-03-31 16:37:06,755 - INFO - Extracting text on page 5 of 37
+2025-03-31 16:37:06,755 - INFO - Success extracting text
+2025-03-31 16:37:06,764 - INFO - Extracting text on page 6 of 37
+2025-03-31 16:37:06,764 - INFO - Success extracting text
+2025-03-31 16:37:06,771 - INFO - Extracting text on page 7 of 37
+2025-03-31 16:37:06,771 - INFO - Success extracting text
+2025-03-31 16:37:06,782 - INFO - Extracting text on page 8 of 37
+2025-03-31 16:37:06,782 - INFO - Success extracting text
+2025-03-31 16:37:06,788 - INFO - Extracting text on page 9 of 37
+2025-03-31 16:37:06,788 - INFO - Success extracting text
+2025-03-31 16:37:06,795 - INFO - Extracting text on page 10 of 37
+2025-03-31 16:37:06,796 - INFO - Success extracting text
+2025-03-31 16:37:06,805 - INFO - Extracting text on page 11 of 37
+2025-03-31 16:37:06,805 - INFO - Success extracting text
+2025-03-31 16:37:06,816 - INFO - Extracting text on page 12 of 37
+2025-03-31 16:37:06,816 - INFO - Success extracting text
+2025-03-31 16:37:06,826 - INFO - Extracting text on page 13 of 37
+2025-03-31 16:37:06,826 - INFO - Success extracting text
+2025-03-31 16:37:06,837 - INFO - Extracting text on page 14 of 37
+2025-03-31 16:37:06,837 - INFO - Success extracting text
+2025-03-31 16:37:06,847 - INFO - Extracting text on page 15 of 37
+2025-03-31 16:37:06,847 - INFO - Success extracting text
+2025-03-31 16:37:06,857 - INFO - Extracting text on page 16 of 37
+2025-03-31 16:37:06,857 - INFO - Success extracting text
+2025-03-31 16:37:06,866 - INFO - Extracting text on page 17 of 37
+2025-03-31 16:37:06,866 - INFO - Success extracting text
+2025-03-31 16:37:06,901 - INFO - Extracting text on page 18 of 37
+2025-03-31 16:37:06,901 - INFO - Success extracting text
+2025-03-31 16:37:06,911 - INFO - Extracting text on page 19 of 37
+2025-03-31 16:37:06,911 - INFO - Success extracting text
+2025-03-31 16:37:06,921 - INFO - Extracting text on page 20 of 37
+2025-03-31 16:37:06,921 - INFO - Success extracting text
+2025-03-31 16:37:06,930 - INFO - Extracting text on page 21 of 37
+2025-03-31 16:37:06,930 - INFO - Success extracting text
+2025-03-31 16:37:06,940 - INFO - Extracting text on page 22 of 37
+2025-03-31 16:37:06,940 - INFO - Success extracting text
+2025-03-31 16:37:06,944 - INFO - Extracting text on page 23 of 37
+2025-03-31 16:37:06,944 - INFO - Success extracting text
+2025-03-31 16:37:06,954 - INFO - Extracting text on page 24 of 37
+2025-03-31 16:37:06,954 - INFO - Success extracting text
+2025-03-31 16:37:06,962 - INFO - Extracting text on page 25 of 37
+2025-03-31 16:37:06,962 - INFO - Success extracting text
+2025-03-31 16:37:06,970 - INFO - Extracting text on page 26 of 37
+2025-03-31 16:37:06,970 - INFO - Success extracting text
+2025-03-31 16:37:06,981 - INFO - Extracting text on page 27 of 37
+2025-03-31 16:37:06,981 - INFO - Success extracting text
+2025-03-31 16:37:06,990 - INFO - Extracting text on page 28 of 37
+2025-03-31 16:37:06,990 - INFO - Success extracting text
+2025-03-31 16:37:06,994 - INFO - Extracting text on page 29 of 37
+2025-03-31 16:37:06,994 - INFO - Success extracting text
+2025-03-31 16:37:07,006 - INFO - Extracting text on page 30 of 37
+2025-03-31 16:37:07,006 - INFO - Success extracting text
+2025-03-31 16:37:07,013 - INFO - Extracting text on page 31 of 37
+2025-03-31 16:37:07,013 - INFO - Success extracting text
+2025-03-31 16:37:07,023 - INFO - Extracting text on page 32 of 37
+2025-03-31 16:37:07,023 - INFO - Success extracting text
+2025-03-31 16:37:07,033 - INFO - Extracting text on page 33 of 37
+2025-03-31 16:37:07,033 - INFO - Success extracting text
+2025-03-31 16:37:07,045 - INFO - Extracting text on page 34 of 37
+2025-03-31 16:37:07,045 - INFO - Success extracting text
+2025-03-31 16:37:07,054 - INFO - Extracting text on page 35 of 37
+2025-03-31 16:37:07,054 - INFO - Success extracting text
+2025-03-31 16:37:07,061 - INFO - Extracting text on page 36 of 37
+2025-03-31 16:37:07,061 - INFO - Success extracting text
+2025-03-31 16:37:07,065 - INFO - Extracting text on page 37 of 37
+2025-03-31 16:37:07,065 - INFO - Success extracting text
+2025-03-31 16:37:07,065 - INFO - Extracted text length: 130266 characters
+2025-03-31 16:37:07,066 - INFO - 
+Processing file: doc-2-1-Latanya_Arvette_Sweeney,_Ph.D.,_2010_WL_5698549_(2010).pdf
+2025-03-31 16:37:07,066 - INFO - Document ID: doc-2-1
+2025-03-31 16:37:07,066 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-2-1-Latanya_Arvette_Sweeney,_Ph.D.,_2010_WL_5698549_(2010).pdf
+2025-03-31 16:37:07,068 - INFO - Number of pages: 25
+2025-03-31 16:37:07,077 - INFO - Extracting text on page 1 of 25
+2025-03-31 16:37:07,077 - INFO - Success extracting text
+2025-03-31 16:37:07,086 - INFO - Extracting text on page 2 of 25
+2025-03-31 16:37:07,086 - INFO - Success extracting text
+2025-03-31 16:37:07,094 - INFO - Extracting text on page 3 of 25
+2025-03-31 16:37:07,094 - INFO - Success extracting text
+2025-03-31 16:37:07,103 - INFO - Extracting text on page 4 of 25
+2025-03-31 16:37:07,103 - INFO - Success extracting text
+2025-03-31 16:37:07,113 - INFO - Extracting text on page 5 of 25
+2025-03-31 16:37:07,113 - INFO - Success extracting text
+2025-03-31 16:37:07,121 - INFO - Extracting text on page 6 of 25
+2025-03-31 16:37:07,121 - INFO - Success extracting text
+2025-03-31 16:37:07,130 - INFO - Extracting text on page 7 of 25
+2025-03-31 16:37:07,130 - INFO - Success extracting text
+2025-03-31 16:37:07,138 - INFO - Extracting text on page 8 of 25
+2025-03-31 16:37:07,138 - INFO - Success extracting text
+2025-03-31 16:37:07,145 - INFO - Extracting text on page 9 of 25
+2025-03-31 16:37:07,145 - INFO - Success extracting text
+2025-03-31 16:37:07,154 - INFO - Extracting text on page 10 of 25
+2025-03-31 16:37:07,154 - INFO - Success extracting text
+2025-03-31 16:37:07,162 - INFO - Extracting text on page 11 of 25
+2025-03-31 16:37:07,162 - INFO - Success extracting text
+2025-03-31 16:37:07,171 - INFO - Extracting text on page 12 of 25
+2025-03-31 16:37:07,171 - INFO - Success extracting text
+2025-03-31 16:37:07,183 - INFO - Extracting text on page 13 of 25
+2025-03-31 16:37:07,183 - INFO - Success extracting text
+2025-03-31 16:37:07,194 - INFO - Extracting text on page 14 of 25
+2025-03-31 16:37:07,194 - INFO - Success extracting text
+2025-03-31 16:37:07,202 - INFO - Extracting text on page 15 of 25
+2025-03-31 16:37:07,202 - INFO - Success extracting text
+2025-03-31 16:37:07,210 - INFO - Extracting text on page 16 of 25
+2025-03-31 16:37:07,210 - INFO - Success extracting text
+2025-03-31 16:37:07,218 - INFO - Extracting text on page 17 of 25
+2025-03-31 16:37:07,218 - INFO - Success extracting text
+2025-03-31 16:37:07,226 - INFO - Extracting text on page 18 of 25
+2025-03-31 16:37:07,226 - INFO - Success extracting text
+2025-03-31 16:37:07,235 - INFO - Extracting text on page 19 of 25
+2025-03-31 16:37:07,235 - INFO - Success extracting text
+2025-03-31 16:37:07,245 - INFO - Extracting text on page 20 of 25
+2025-03-31 16:37:07,245 - INFO - Success extracting text
+2025-03-31 16:37:07,254 - INFO - Extracting text on page 21 of 25
+2025-03-31 16:37:07,254 - INFO - Success extracting text
+2025-03-31 16:37:07,263 - INFO - Extracting text on page 22 of 25
+2025-03-31 16:37:07,263 - INFO - Success extracting text
+2025-03-31 16:37:07,270 - INFO - Extracting text on page 23 of 25
+2025-03-31 16:37:07,270 - INFO - Success extracting text
+2025-03-31 16:37:07,278 - INFO - Extracting text on page 24 of 25
+2025-03-31 16:37:07,278 - INFO - Success extracting text
+2025-03-31 16:37:07,283 - INFO - Extracting text on page 25 of 25
+2025-03-31 16:37:07,283 - INFO - Success extracting text
+2025-03-31 16:37:07,283 - INFO - Extracted text length: 70364 characters
+2025-03-31 16:37:07,285 - INFO - 
+Saved results to test.csv
+2025-03-31 16:49:40,073 - INFO - Starting to process files in /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files
+2025-03-31 16:49:40,076 - INFO - 
+
+ ===== Document ID: doc-1-1 =====
+2025-03-31 16:49:40,076 - INFO - 
+Processing file: doc-1-1-Dennis_RUTHERFORD,_v._PALO_VERDE_HEALTH_CARE...,_2015_WL_11143173....pdf
+2025-03-31 16:49:40,076 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-1-Dennis_RUTHERFORD,_v._PALO_VERDE_HEALTH_CARE...,_2015_WL_11143173....pdf
+2025-03-31 16:49:40,077 - INFO - Number of pages: 6
+2025-03-31 16:49:40,085 - INFO - Extracting text on page 1 of 6
+2025-03-31 16:49:40,086 - INFO - Success extracting text
+2025-03-31 16:49:40,094 - INFO - Extracting text on page 2 of 6
+2025-03-31 16:49:40,094 - INFO - Success extracting text
+2025-03-31 16:49:40,106 - INFO - Extracting text on page 3 of 6
+2025-03-31 16:49:40,106 - INFO - Success extracting text
+2025-03-31 16:49:40,118 - INFO - Extracting text on page 4 of 6
+2025-03-31 16:49:40,118 - INFO - Success extracting text
+2025-03-31 16:49:40,133 - INFO - Extracting text on page 5 of 6
+2025-03-31 16:49:40,133 - INFO - Success extracting text
+2025-03-31 16:49:40,136 - INFO - Extracting text on page 6 of 6
+2025-03-31 16:49:40,136 - INFO - Success extracting text
+2025-03-31 16:49:40,136 - INFO - Extracted text length: 20095 characters
+2025-03-31 16:49:40,137 - INFO - 
+
+ ===== Document ID: doc-1-2 =====
+2025-03-31 16:49:40,137 - INFO - 
+Processing file: doc-1-2-SAGUARO_MEDICAL_ASSOCIATES,_P.C.,_v._Banner_HEALTH.,_2009_WL_6057070_(2009).pdf
+2025-03-31 16:49:40,138 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-2-SAGUARO_MEDICAL_ASSOCIATES,_P.C.,_v._Banner_HEALTH.,_2009_WL_6057070_(2009).pdf
+2025-03-31 16:49:40,139 - INFO - Number of pages: 30
+2025-03-31 16:49:40,150 - INFO - Extracting text on page 1 of 30
+2025-03-31 16:49:40,150 - INFO - Success extracting text
+2025-03-31 16:49:40,160 - INFO - Extracting text on page 2 of 30
+2025-03-31 16:49:40,161 - INFO - Success extracting text
+2025-03-31 16:49:40,169 - INFO - Extracting text on page 3 of 30
+2025-03-31 16:49:40,169 - INFO - Success extracting text
+2025-03-31 16:49:40,177 - INFO - Extracting text on page 4 of 30
+2025-03-31 16:49:40,177 - INFO - Success extracting text
+2025-03-31 16:49:40,185 - INFO - Extracting text on page 5 of 30
+2025-03-31 16:49:40,185 - INFO - Success extracting text
+2025-03-31 16:49:40,195 - INFO - Extracting text on page 6 of 30
+2025-03-31 16:49:40,195 - INFO - Success extracting text
+2025-03-31 16:49:40,205 - INFO - Extracting text on page 7 of 30
+2025-03-31 16:49:40,206 - INFO - Success extracting text
+2025-03-31 16:49:40,215 - INFO - Extracting text on page 8 of 30
+2025-03-31 16:49:40,215 - INFO - Success extracting text
+2025-03-31 16:49:40,223 - INFO - Extracting text on page 9 of 30
+2025-03-31 16:49:40,223 - INFO - Success extracting text
+2025-03-31 16:49:40,234 - INFO - Extracting text on page 10 of 30
+2025-03-31 16:49:40,234 - INFO - Success extracting text
+2025-03-31 16:49:40,242 - INFO - Extracting text on page 11 of 30
+2025-03-31 16:49:40,242 - INFO - Success extracting text
+2025-03-31 16:49:40,255 - INFO - Extracting text on page 12 of 30
+2025-03-31 16:49:40,255 - INFO - Success extracting text
+2025-03-31 16:49:40,266 - INFO - Extracting text on page 13 of 30
+2025-03-31 16:49:40,266 - INFO - Success extracting text
+2025-03-31 16:49:40,278 - INFO - Extracting text on page 14 of 30
+2025-03-31 16:49:40,278 - INFO - Success extracting text
+2025-03-31 16:49:40,287 - INFO - Extracting text on page 15 of 30
+2025-03-31 16:49:40,287 - INFO - Success extracting text
+2025-03-31 16:49:40,295 - INFO - Extracting text on page 16 of 30
+2025-03-31 16:49:40,295 - INFO - Success extracting text
+2025-03-31 16:49:40,303 - INFO - Extracting text on page 17 of 30
+2025-03-31 16:49:40,303 - INFO - Success extracting text
+2025-03-31 16:49:40,309 - INFO - Extracting text on page 18 of 30
+2025-03-31 16:49:40,309 - INFO - Success extracting text
+2025-03-31 16:49:40,315 - INFO - Extracting text on page 19 of 30
+2025-03-31 16:49:40,315 - INFO - Success extracting text
+2025-03-31 16:49:40,322 - INFO - Extracting text on page 20 of 30
+2025-03-31 16:49:40,322 - INFO - Success extracting text
+2025-03-31 16:49:40,329 - INFO - Extracting text on page 21 of 30
+2025-03-31 16:49:40,329 - INFO - Success extracting text
+2025-03-31 16:49:40,335 - INFO - Extracting text on page 22 of 30
+2025-03-31 16:49:40,335 - INFO - Success extracting text
+2025-03-31 16:49:40,342 - INFO - Extracting text on page 23 of 30
+2025-03-31 16:49:40,342 - INFO - Success extracting text
+2025-03-31 16:49:40,348 - INFO - Extracting text on page 24 of 30
+2025-03-31 16:49:40,348 - INFO - Success extracting text
+2025-03-31 16:49:40,354 - INFO - Extracting text on page 25 of 30
+2025-03-31 16:49:40,354 - INFO - Success extracting text
+2025-03-31 16:49:40,360 - INFO - Extracting text on page 26 of 30
+2025-03-31 16:49:40,360 - INFO - Success extracting text
+2025-03-31 16:49:40,368 - INFO - Extracting text on page 27 of 30
+2025-03-31 16:49:40,368 - INFO - Success extracting text
+2025-03-31 16:49:40,375 - INFO - Extracting text on page 28 of 30
+2025-03-31 16:49:40,376 - INFO - Success extracting text
+2025-03-31 16:49:40,382 - INFO - Extracting text on page 29 of 30
+2025-03-31 16:49:40,382 - INFO - Success extracting text
+2025-03-31 16:49:40,388 - INFO - Extracting text on page 30 of 30
+2025-03-31 16:49:40,388 - INFO - Success extracting text
+2025-03-31 16:49:40,388 - INFO - Extracted text length: 95138 characters
+2025-03-31 16:49:40,388 - INFO - 
+
+ ===== Document ID: doc-1-3 =====
+2025-03-31 16:49:40,389 - INFO - 
+Processing file: doc-1-3-MAIER,_v._GREEN_et_al.,_2006_WL_6659778_(2006).pdf
+2025-03-31 16:49:40,389 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-3-MAIER,_v._GREEN_et_al.,_2006_WL_6659778_(2006).pdf
+2025-03-31 16:49:40,390 - INFO - Number of pages: 9
+2025-03-31 16:49:40,398 - INFO - Extracting text on page 1 of 9
+2025-03-31 16:49:40,398 - INFO - Success extracting text
+2025-03-31 16:49:40,409 - INFO - Extracting text on page 2 of 9
+2025-03-31 16:49:40,409 - INFO - Success extracting text
+2025-03-31 16:49:40,418 - INFO - Extracting text on page 3 of 9
+2025-03-31 16:49:40,418 - INFO - Success extracting text
+2025-03-31 16:49:40,430 - INFO - Extracting text on page 4 of 9
+2025-03-31 16:49:40,430 - INFO - Success extracting text
+2025-03-31 16:49:40,442 - INFO - Extracting text on page 5 of 9
+2025-03-31 16:49:40,442 - INFO - Success extracting text
+2025-03-31 16:49:40,452 - INFO - Extracting text on page 6 of 9
+2025-03-31 16:49:40,452 - INFO - Success extracting text
+2025-03-31 16:49:40,461 - INFO - Extracting text on page 7 of 9
+2025-03-31 16:49:40,461 - INFO - Success extracting text
+2025-03-31 16:49:40,469 - INFO - Extracting text on page 8 of 9
+2025-03-31 16:49:40,469 - INFO - Success extracting text
+2025-03-31 16:49:40,477 - INFO - Extracting text on page 9 of 9
+2025-03-31 16:49:40,477 - INFO - Success extracting text
+2025-03-31 16:49:40,477 - INFO - Extracted text length: 33375 characters
+2025-03-31 16:49:40,477 - INFO - 
+
+ ===== Document ID: doc-1-4 =====
+2025-03-31 16:49:40,477 - INFO - 
+Processing file: doc-1-4-PGH_GLOBAL_(CAYMAN)_LIMITED,_Plaintiff,_v._LIQUID...,_2018_WL_3822751....pdf
+2025-03-31 16:49:40,478 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-4-PGH_GLOBAL_(CAYMAN)_LIMITED,_Plaintiff,_v._LIQUID...,_2018_WL_3822751....pdf
+2025-03-31 16:49:40,480 - INFO - Number of pages: 37
+2025-03-31 16:49:40,487 - INFO - Extracting text on page 1 of 37
+2025-03-31 16:49:40,487 - INFO - Success extracting text
+2025-03-31 16:49:40,491 - INFO - Extracting text on page 2 of 37
+2025-03-31 16:49:40,491 - INFO - Success extracting text
+2025-03-31 16:49:40,499 - INFO - Extracting text on page 3 of 37
+2025-03-31 16:49:40,499 - INFO - Success extracting text
+2025-03-31 16:49:40,510 - INFO - Extracting text on page 4 of 37
+2025-03-31 16:49:40,510 - INFO - Success extracting text
+2025-03-31 16:49:40,518 - INFO - Extracting text on page 5 of 37
+2025-03-31 16:49:40,518 - INFO - Success extracting text
+2025-03-31 16:49:40,527 - INFO - Extracting text on page 6 of 37
+2025-03-31 16:49:40,527 - INFO - Success extracting text
+2025-03-31 16:49:40,534 - INFO - Extracting text on page 7 of 37
+2025-03-31 16:49:40,534 - INFO - Success extracting text
+2025-03-31 16:49:40,545 - INFO - Extracting text on page 8 of 37
+2025-03-31 16:49:40,545 - INFO - Success extracting text
+2025-03-31 16:49:40,551 - INFO - Extracting text on page 9 of 37
+2025-03-31 16:49:40,551 - INFO - Success extracting text
+2025-03-31 16:49:40,558 - INFO - Extracting text on page 10 of 37
+2025-03-31 16:49:40,558 - INFO - Success extracting text
+2025-03-31 16:49:40,568 - INFO - Extracting text on page 11 of 37
+2025-03-31 16:49:40,568 - INFO - Success extracting text
+2025-03-31 16:49:40,579 - INFO - Extracting text on page 12 of 37
+2025-03-31 16:49:40,579 - INFO - Success extracting text
+2025-03-31 16:49:40,589 - INFO - Extracting text on page 13 of 37
+2025-03-31 16:49:40,589 - INFO - Success extracting text
+2025-03-31 16:49:40,599 - INFO - Extracting text on page 14 of 37
+2025-03-31 16:49:40,600 - INFO - Success extracting text
+2025-03-31 16:49:40,609 - INFO - Extracting text on page 15 of 37
+2025-03-31 16:49:40,609 - INFO - Success extracting text
+2025-03-31 16:49:40,620 - INFO - Extracting text on page 16 of 37
+2025-03-31 16:49:40,620 - INFO - Success extracting text
+2025-03-31 16:49:40,629 - INFO - Extracting text on page 17 of 37
+2025-03-31 16:49:40,629 - INFO - Success extracting text
+2025-03-31 16:49:40,664 - INFO - Extracting text on page 18 of 37
+2025-03-31 16:49:40,664 - INFO - Success extracting text
+2025-03-31 16:49:40,673 - INFO - Extracting text on page 19 of 37
+2025-03-31 16:49:40,673 - INFO - Success extracting text
+2025-03-31 16:49:40,683 - INFO - Extracting text on page 20 of 37
+2025-03-31 16:49:40,684 - INFO - Success extracting text
+2025-03-31 16:49:40,692 - INFO - Extracting text on page 21 of 37
+2025-03-31 16:49:40,692 - INFO - Success extracting text
+2025-03-31 16:49:40,703 - INFO - Extracting text on page 22 of 37
+2025-03-31 16:49:40,703 - INFO - Success extracting text
+2025-03-31 16:49:40,707 - INFO - Extracting text on page 23 of 37
+2025-03-31 16:49:40,707 - INFO - Success extracting text
+2025-03-31 16:49:40,716 - INFO - Extracting text on page 24 of 37
+2025-03-31 16:49:40,716 - INFO - Success extracting text
+2025-03-31 16:49:40,724 - INFO - Extracting text on page 25 of 37
+2025-03-31 16:49:40,724 - INFO - Success extracting text
+2025-03-31 16:49:40,732 - INFO - Extracting text on page 26 of 37
+2025-03-31 16:49:40,732 - INFO - Success extracting text
+2025-03-31 16:49:40,743 - INFO - Extracting text on page 27 of 37
+2025-03-31 16:49:40,743 - INFO - Success extracting text
+2025-03-31 16:49:40,752 - INFO - Extracting text on page 28 of 37
+2025-03-31 16:49:40,752 - INFO - Success extracting text
+2025-03-31 16:49:40,757 - INFO - Extracting text on page 29 of 37
+2025-03-31 16:49:40,757 - INFO - Success extracting text
+2025-03-31 16:49:40,769 - INFO - Extracting text on page 30 of 37
+2025-03-31 16:49:40,769 - INFO - Success extracting text
+2025-03-31 16:49:40,775 - INFO - Extracting text on page 31 of 37
+2025-03-31 16:49:40,775 - INFO - Success extracting text
+2025-03-31 16:49:40,785 - INFO - Extracting text on page 32 of 37
+2025-03-31 16:49:40,785 - INFO - Success extracting text
+2025-03-31 16:49:40,795 - INFO - Extracting text on page 33 of 37
+2025-03-31 16:49:40,795 - INFO - Success extracting text
+2025-03-31 16:49:40,806 - INFO - Extracting text on page 34 of 37
+2025-03-31 16:49:40,806 - INFO - Success extracting text
+2025-03-31 16:49:40,815 - INFO - Extracting text on page 35 of 37
+2025-03-31 16:49:40,815 - INFO - Success extracting text
+2025-03-31 16:49:40,822 - INFO - Extracting text on page 36 of 37
+2025-03-31 16:49:40,822 - INFO - Success extracting text
+2025-03-31 16:49:40,826 - INFO - Extracting text on page 37 of 37
+2025-03-31 16:49:40,826 - INFO - Success extracting text
+2025-03-31 16:49:40,827 - INFO - Extracted text length: 130266 characters
+2025-03-31 16:49:40,827 - INFO - 
+
+ ===== Document ID: doc-2-1 =====
+2025-03-31 16:49:40,827 - INFO - 
+Processing file: doc-2-1-Latanya_Arvette_Sweeney,_Ph.D.,_2010_WL_5698549_(2010).pdf
+2025-03-31 16:49:40,827 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-2-1-Latanya_Arvette_Sweeney,_Ph.D.,_2010_WL_5698549_(2010).pdf
+2025-03-31 16:49:40,830 - INFO - Number of pages: 25
+2025-03-31 16:49:40,838 - INFO - Extracting text on page 1 of 25
+2025-03-31 16:49:40,838 - INFO - Success extracting text
+2025-03-31 16:49:40,847 - INFO - Extracting text on page 2 of 25
+2025-03-31 16:49:40,847 - INFO - Success extracting text
+2025-03-31 16:49:40,855 - INFO - Extracting text on page 3 of 25
+2025-03-31 16:49:40,855 - INFO - Success extracting text
+2025-03-31 16:49:40,864 - INFO - Extracting text on page 4 of 25
+2025-03-31 16:49:40,864 - INFO - Success extracting text
+2025-03-31 16:49:40,874 - INFO - Extracting text on page 5 of 25
+2025-03-31 16:49:40,875 - INFO - Success extracting text
+2025-03-31 16:49:40,882 - INFO - Extracting text on page 6 of 25
+2025-03-31 16:49:40,882 - INFO - Success extracting text
+2025-03-31 16:49:40,891 - INFO - Extracting text on page 7 of 25
+2025-03-31 16:49:40,891 - INFO - Success extracting text
+2025-03-31 16:49:40,900 - INFO - Extracting text on page 8 of 25
+2025-03-31 16:49:40,900 - INFO - Success extracting text
+2025-03-31 16:49:40,907 - INFO - Extracting text on page 9 of 25
+2025-03-31 16:49:40,907 - INFO - Success extracting text
+2025-03-31 16:49:40,916 - INFO - Extracting text on page 10 of 25
+2025-03-31 16:49:40,916 - INFO - Success extracting text
+2025-03-31 16:49:40,924 - INFO - Extracting text on page 11 of 25
+2025-03-31 16:49:40,924 - INFO - Success extracting text
+2025-03-31 16:49:40,933 - INFO - Extracting text on page 12 of 25
+2025-03-31 16:49:40,933 - INFO - Success extracting text
+2025-03-31 16:49:40,944 - INFO - Extracting text on page 13 of 25
+2025-03-31 16:49:40,944 - INFO - Success extracting text
+2025-03-31 16:49:40,956 - INFO - Extracting text on page 14 of 25
+2025-03-31 16:49:40,957 - INFO - Success extracting text
+2025-03-31 16:49:40,964 - INFO - Extracting text on page 15 of 25
+2025-03-31 16:49:40,965 - INFO - Success extracting text
+2025-03-31 16:49:40,972 - INFO - Extracting text on page 16 of 25
+2025-03-31 16:49:40,972 - INFO - Success extracting text
+2025-03-31 16:49:40,980 - INFO - Extracting text on page 17 of 25
+2025-03-31 16:49:40,980 - INFO - Success extracting text
+2025-03-31 16:49:40,989 - INFO - Extracting text on page 18 of 25
+2025-03-31 16:49:40,989 - INFO - Success extracting text
+2025-03-31 16:49:40,999 - INFO - Extracting text on page 19 of 25
+2025-03-31 16:49:40,999 - INFO - Success extracting text
+2025-03-31 16:49:41,008 - INFO - Extracting text on page 20 of 25
+2025-03-31 16:49:41,008 - INFO - Success extracting text
+2025-03-31 16:49:41,017 - INFO - Extracting text on page 21 of 25
+2025-03-31 16:49:41,018 - INFO - Success extracting text
+2025-03-31 16:49:41,026 - INFO - Extracting text on page 22 of 25
+2025-03-31 16:49:41,026 - INFO - Success extracting text
+2025-03-31 16:49:41,033 - INFO - Extracting text on page 23 of 25
+2025-03-31 16:49:41,033 - INFO - Success extracting text
+2025-03-31 16:49:41,041 - INFO - Extracting text on page 24 of 25
+2025-03-31 16:49:41,041 - INFO - Success extracting text
+2025-03-31 16:49:41,046 - INFO - Extracting text on page 25 of 25
+2025-03-31 16:49:41,046 - INFO - Success extracting text
+2025-03-31 16:49:41,046 - INFO - Extracted text length: 70364 characters
+2025-03-31 16:49:41,049 - INFO - 
+Saved results to test.csv

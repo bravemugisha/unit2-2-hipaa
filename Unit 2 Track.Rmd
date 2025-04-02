@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(dplyr)
 library(stringr)
-form1human <- read_csv("~/Desktop/gov1430/1-form1human.csv")%>%
+form1human <- read_csv("1-form1human.csv")%>%
   mutate(evaluator= "human")
 
 # Check column names to find the correct column
@@ -85,12 +85,8 @@ form1claude <- form1claude %>%
    `parties involved response`=="individual vs. health insurance plan"~ "1",
     .default= "other"
     ))
-
-
-
 ```
 
-```{r}
 ```{r}
 #Adding gpt dataset
 form1gpt <- read_csv("gpt-4o.csv")%>%
@@ -145,6 +141,8 @@ combined_wrangled_dataset<-bind_rows(form1claude_wrangled, form1human_wrangled, 
 
 
 ```
+
+
 ```{r}
 #finding what the most frequently reported values are in each column for each unique docid
 

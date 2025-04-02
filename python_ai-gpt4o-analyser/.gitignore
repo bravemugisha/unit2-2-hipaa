@@ -5,6 +5,7 @@
 # (Will allow venv folder in github for now, see README.md)
 #pdf-analysis/
 #venv/
+specstory/
 
 # Python cache and compiled files and DS_Store files
 __pycache__/

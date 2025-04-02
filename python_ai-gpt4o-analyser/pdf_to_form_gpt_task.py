@@ -32,15 +32,16 @@ def extract_text_from_pdf(pdf_path):
                 print(f"Number of pages: {num_pages}")
                 
                 for i, page in enumerate(pdf_reader.pages, 1):
+                    print("Extracting text on page {i} of {num_pages}")
                     try:
                         text = page.extract_text() or ""
                         if not text.strip():
                             print(f"Warning: PyPDF2 - Page {i} appears to be empty or unreadable")
                         else:
                             text_content.append(text)
-                            print(f"\n--- Page {i} Content {'='*40}")
-                            print(text[:500] + "..." if len(text) > 500 else text)
-                            print(f"{'='*50}\n")
+                            # print(f"\n--- Page {i} Content {'='*40}")
+                            # print(text[:500] + "..." if len(text) > 500 else text)
+                            # print(f"{'='*50}\n")
                     except Exception as e:
                         print(f"Warning: PyPDF2 - Error extracting page {i}: {str(e)}")
                 
@@ -306,16 +307,17 @@ def process_files_in_folder(input_folder, output_csv, test_mode=True):
             doc_id = match.group(1).lower() if match else base_name.lower()
             
             print(f"\nProcessing file: {filename}")
+            print('\n')
             print(f"Document ID: {doc_id}")
 
             # Extract text based on file type
             if lower_filename.endswith(".pdf"):
                 document_text = extract_text_from_pdf(file_path)
                 # Print text length for debugging
-                print(f"Extracted text length: {len(document_text)} characters")
+                print(f"Extracted PDF text length: {len(document_text)} characters")
             elif lower_filename.endswith(".rtf"):
                 document_text = extract_text_from_rtf(file_path)
-                print(f"Extracted text length: {len(document_text)} characters")
+                print(f"Extracted RTF text length: {len(document_text)} characters")
 
             if test_mode:
                 # In test mode, just add a placeholder row
@@ -360,7 +362,7 @@ def process_files_in_folder(input_folder, output_csv, test_mode=True):
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python main.py <input_folder> <output_csv> [test_mode]")
+        print("Usage: python3 pdf_to_form_gpt_task.py <input_folder> <output_csv> [test_mode]")
         sys.exit(1)
 
     input_folder = sys.argv[1]

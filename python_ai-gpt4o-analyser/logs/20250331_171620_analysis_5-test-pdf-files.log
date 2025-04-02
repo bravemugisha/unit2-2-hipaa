@@ -1,0 +1,230 @@
+2025-03-31 17:16:20,829 - INFO - ==================================================
+2025-03-31 17:16:20,829 - INFO - SCRIPT EXECUTION STARTED
+2025-03-31 17:16:20,829 - INFO - Command: python main_question_gpt_answer.py /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files test.csv False
+2025-03-31 17:16:20,829 - INFO - ==================================================
+2025-03-31 17:16:20,829 - INFO - Starting to process files in /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files
+2025-03-31 17:16:20,831 - INFO - 
+
+ ===== Document ID: doc-1-1 =====
+2025-03-31 17:16:20,831 - INFO - 
+Processing file: doc-1-1-Dennis_RUTHERFORD,_v._PALO_VERDE_HEALTH_CARE...,_2015_WL_11143173....pdf
+2025-03-31 17:16:20,831 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-1-Dennis_RUTHERFORD,_v._PALO_VERDE_HEALTH_CARE...,_2015_WL_11143173....pdf
+2025-03-31 17:16:20,832 - INFO - Number of pages: 6
+2025-03-31 17:16:20,840 - INFO - Extracting text on page 1 of 6
+2025-03-31 17:16:20,841 - INFO - Success extracting text
+2025-03-31 17:16:20,849 - INFO - Extracting text on page 2 of 6
+2025-03-31 17:16:20,849 - INFO - Success extracting text
+2025-03-31 17:16:20,861 - INFO - Extracting text on page 3 of 6
+2025-03-31 17:16:20,861 - INFO - Success extracting text
+2025-03-31 17:16:20,872 - INFO - Extracting text on page 4 of 6
+2025-03-31 17:16:20,872 - INFO - Success extracting text
+2025-03-31 17:16:20,886 - INFO - Extracting text on page 5 of 6
+2025-03-31 17:16:20,886 - INFO - Success extracting text
+2025-03-31 17:16:20,889 - INFO - Extracting text on page 6 of 6
+2025-03-31 17:16:20,889 - INFO - Success extracting text
+2025-03-31 17:16:20,889 - INFO - Extracted text length: 20095 characters
+2025-03-31 17:16:20,889 - INFO - TOTAL INPUT TOKENS: 80380
+2025-03-31 17:16:23,984 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:16:23,998 - INFO - ChatCompletion(id='chatcmpl-BHGmTPkqCYtwFq9FtmB3xQjiU0Kxn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='```json\n{\n    "DocumentID": "doc-1-1",\n    "InvolvesPHI": true,\n    "InvolvesCoveredEntity": true,\n    "Explanation": "The document is a legal case involving Dennis Rutherford against Palo Verde Health Care District (PVHD), which is a healthcare entity. The text discusses HIPAA regulations and the handling of Protected Health Information (PHI). It explicitly mentions that the documents reviewed contain PHI, which includes individually identifiable health information such as patient names, addresses, and medical record numbers. The expert report by Ross A. Leo indicates that PVHD is a covered entity under HIPAA, as it is a healthcare provider that handles patient records. The report also discusses the obligations of PVHD regarding the protection and disclosure of PHI, confirming that the entity is subject to HIPAA regulations. Therefore, the document involves both PHI and a covered entity."\n}\n```', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1743455781, model='gpt-4o-mini-2024-07-18', object='chat.completion', service_tier='default', system_fingerprint='fp_b376dfbbd5', usage=CompletionUsage(completion_tokens=188, prompt_tokens=4770, total_tokens=4958, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+2025-03-31 17:16:23,998 - INFO - Data for doc-1-1: 
+ {'DocumentID': 'doc-1-1', 'InvolvesPHI': True, 'InvolvesCoveredEntity': True, 'Explanation': 'The document is a legal case involving Dennis Rutherford against Palo Verde Health Care District (PVHD), which is a healthcare entity. The text discusses HIPAA regulations and the handling of Protected Health Information (PHI). It explicitly mentions that the documents reviewed contain PHI, which includes individually identifiable health information such as patient names, addresses, and medical record numbers. The expert report by Ross A. Leo indicates that PVHD is a covered entity under HIPAA, as it is a healthcare provider that handles patient records. The report also discusses the obligations of PVHD regarding the protection and disclosure of PHI, confirming that the entity is subject to HIPAA regulations. Therefore, the document involves both PHI and a covered entity.'} 
+
+2025-03-31 17:16:24,000 - INFO - COMPLETE: doc-1-1
+2025-03-31 17:16:24,002 - INFO - 
+
+ ===== Document ID: doc-1-2 =====
+2025-03-31 17:16:24,002 - INFO - 
+Processing file: doc-1-2-SAGUARO_MEDICAL_ASSOCIATES,_P.C.,_v._Banner_HEALTH.,_2009_WL_6057070_(2009).pdf
+2025-03-31 17:16:24,002 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-2-SAGUARO_MEDICAL_ASSOCIATES,_P.C.,_v._Banner_HEALTH.,_2009_WL_6057070_(2009).pdf
+2025-03-31 17:16:24,005 - INFO - Number of pages: 30
+2025-03-31 17:16:24,021 - INFO - Extracting text on page 1 of 30
+2025-03-31 17:16:24,021 - INFO - Success extracting text
+2025-03-31 17:16:24,035 - INFO - Extracting text on page 2 of 30
+2025-03-31 17:16:24,035 - INFO - Success extracting text
+2025-03-31 17:16:24,045 - INFO - Extracting text on page 3 of 30
+2025-03-31 17:16:24,045 - INFO - Success extracting text
+2025-03-31 17:16:24,054 - INFO - Extracting text on page 4 of 30
+2025-03-31 17:16:24,054 - INFO - Success extracting text
+2025-03-31 17:16:24,063 - INFO - Extracting text on page 5 of 30
+2025-03-31 17:16:24,063 - INFO - Success extracting text
+2025-03-31 17:16:24,074 - INFO - Extracting text on page 6 of 30
+2025-03-31 17:16:24,074 - INFO - Success extracting text
+2025-03-31 17:16:24,084 - INFO - Extracting text on page 7 of 30
+2025-03-31 17:16:24,084 - INFO - Success extracting text
+2025-03-31 17:16:24,093 - INFO - Extracting text on page 8 of 30
+2025-03-31 17:16:24,093 - INFO - Success extracting text
+2025-03-31 17:16:24,102 - INFO - Extracting text on page 9 of 30
+2025-03-31 17:16:24,102 - INFO - Success extracting text
+2025-03-31 17:16:24,112 - INFO - Extracting text on page 10 of 30
+2025-03-31 17:16:24,112 - INFO - Success extracting text
+2025-03-31 17:16:24,120 - INFO - Extracting text on page 11 of 30
+2025-03-31 17:16:24,120 - INFO - Success extracting text
+2025-03-31 17:16:24,133 - INFO - Extracting text on page 12 of 30
+2025-03-31 17:16:24,133 - INFO - Success extracting text
+2025-03-31 17:16:24,143 - INFO - Extracting text on page 13 of 30
+2025-03-31 17:16:24,143 - INFO - Success extracting text
+2025-03-31 17:16:24,155 - INFO - Extracting text on page 14 of 30
+2025-03-31 17:16:24,155 - INFO - Success extracting text
+2025-03-31 17:16:24,164 - INFO - Extracting text on page 15 of 30
+2025-03-31 17:16:24,164 - INFO - Success extracting text
+2025-03-31 17:16:24,172 - INFO - Extracting text on page 16 of 30
+2025-03-31 17:16:24,172 - INFO - Success extracting text
+2025-03-31 17:16:24,179 - INFO - Extracting text on page 17 of 30
+2025-03-31 17:16:24,179 - INFO - Success extracting text
+2025-03-31 17:16:24,186 - INFO - Extracting text on page 18 of 30
+2025-03-31 17:16:24,186 - INFO - Success extracting text
+2025-03-31 17:16:24,192 - INFO - Extracting text on page 19 of 30
+2025-03-31 17:16:24,192 - INFO - Success extracting text
+2025-03-31 17:16:24,199 - INFO - Extracting text on page 20 of 30
+2025-03-31 17:16:24,199 - INFO - Success extracting text
+2025-03-31 17:16:24,206 - INFO - Extracting text on page 21 of 30
+2025-03-31 17:16:24,206 - INFO - Success extracting text
+2025-03-31 17:16:24,213 - INFO - Extracting text on page 22 of 30
+2025-03-31 17:16:24,213 - INFO - Success extracting text
+2025-03-31 17:16:24,219 - INFO - Extracting text on page 23 of 30
+2025-03-31 17:16:24,219 - INFO - Success extracting text
+2025-03-31 17:16:24,225 - INFO - Extracting text on page 24 of 30
+2025-03-31 17:16:24,225 - INFO - Success extracting text
+2025-03-31 17:16:24,231 - INFO - Extracting text on page 25 of 30
+2025-03-31 17:16:24,231 - INFO - Success extracting text
+2025-03-31 17:16:24,237 - INFO - Extracting text on page 26 of 30
+2025-03-31 17:16:24,237 - INFO - Success extracting text
+2025-03-31 17:16:24,245 - INFO - Extracting text on page 27 of 30
+2025-03-31 17:16:24,245 - INFO - Success extracting text
+2025-03-31 17:16:24,252 - INFO - Extracting text on page 28 of 30
+2025-03-31 17:16:24,252 - INFO - Success extracting text
+2025-03-31 17:16:24,258 - INFO - Extracting text on page 29 of 30
+2025-03-31 17:16:24,258 - INFO - Success extracting text
+2025-03-31 17:16:24,265 - INFO - Extracting text on page 30 of 30
+2025-03-31 17:16:24,265 - INFO - Success extracting text
+2025-03-31 17:16:24,265 - INFO - Extracted text length: 95138 characters
+2025-03-31 17:16:24,265 - INFO - TOTAL INPUT TOKENS: 380552
+2025-03-31 17:16:30,460 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:16:30,462 - INFO - ChatCompletion(id='chatcmpl-BHGmWmDm59o7tle7CgAyz0djmKRHn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='```json\n{\n    "DocumentID": "doc-1-2",\n    "InvolvesPHI": true,\n    "InvolvesCoveredEntity": true,\n    "Explanation": "The document is a legal report concerning a case involving Saguaro Medical Associates, P.C. and Banner Health, which are both considered HIPAA-covered entities. Saguaro Medical Associates is a group of healthcare providers, and Banner Health is a healthcare organization. The report discusses allegations related to HIPAA violations concerning the access and sharing of patient demographic information by Dr. Rakesh Malhotra, a physician associated with Saguaro Medical Associates, while he was practicing at Banner Thunderbird Medical Center. The text explicitly mentions \'patient demographic information involving three patients,\' which qualifies as Personal Health Information (PHI) under HIPAA, as it is individually identifiable health information related to the provision of healthcare. The report also references the HIPAA final privacy rule and discusses the concept of Organized Health Care Arrangements (OHCA), indicating that the entities involved are sharing PHI for healthcare operations, which is permissible under HIPAA. Therefore, the document involves both PHI and HIPAA-covered entities."\n}\n```', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1743455784, model='gpt-4o-mini-2024-07-18', object='chat.completion', service_tier='default', system_fingerprint='fp_b376dfbbd5', usage=CompletionUsage(completion_tokens=242, prompt_tokens=20982, total_tokens=21224, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+2025-03-31 17:16:30,463 - INFO - Data for doc-1-2: 
+ {'DocumentID': 'doc-1-2', 'InvolvesPHI': True, 'InvolvesCoveredEntity': True, 'Explanation': "The document is a legal report concerning a case involving Saguaro Medical Associates, P.C. and Banner Health, which are both considered HIPAA-covered entities. Saguaro Medical Associates is a group of healthcare providers, and Banner Health is a healthcare organization. The report discusses allegations related to HIPAA violations concerning the access and sharing of patient demographic information by Dr. Rakesh Malhotra, a physician associated with Saguaro Medical Associates, while he was practicing at Banner Thunderbird Medical Center. The text explicitly mentions 'patient demographic information involving three patients,' which qualifies as Personal Health Information (PHI) under HIPAA, as it is individually identifiable health information related to the provision of healthcare. The report also references the HIPAA final privacy rule and discusses the concept of Organized Health Care Arrangements (OHCA), indicating that the entities involved are sharing PHI for healthcare operations, which is permissible under HIPAA. Therefore, the document involves both PHI and HIPAA-covered entities."} 
+
+2025-03-31 17:16:30,464 - INFO - COMPLETE: doc-1-2
+2025-03-31 17:16:30,464 - INFO - 
+
+ ===== Document ID: doc-1-3 =====
+2025-03-31 17:16:30,464 - INFO - 
+Processing file: doc-1-3-MAIER,_v._GREEN_et_al.,_2006_WL_6659778_(2006).pdf
+2025-03-31 17:16:30,464 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-3-MAIER,_v._GREEN_et_al.,_2006_WL_6659778_(2006).pdf
+2025-03-31 17:16:30,468 - INFO - Number of pages: 9
+2025-03-31 17:16:30,485 - INFO - Extracting text on page 1 of 9
+2025-03-31 17:16:30,485 - INFO - Success extracting text
+2025-03-31 17:16:30,501 - INFO - Extracting text on page 2 of 9
+2025-03-31 17:16:30,501 - INFO - Success extracting text
+2025-03-31 17:16:30,513 - INFO - Extracting text on page 3 of 9
+2025-03-31 17:16:30,513 - INFO - Success extracting text
+2025-03-31 17:16:30,527 - INFO - Extracting text on page 4 of 9
+2025-03-31 17:16:30,527 - INFO - Success extracting text
+2025-03-31 17:16:30,540 - INFO - Extracting text on page 5 of 9
+2025-03-31 17:16:30,540 - INFO - Success extracting text
+2025-03-31 17:16:30,550 - INFO - Extracting text on page 6 of 9
+2025-03-31 17:16:30,550 - INFO - Success extracting text
+2025-03-31 17:16:30,558 - INFO - Extracting text on page 7 of 9
+2025-03-31 17:16:30,559 - INFO - Success extracting text
+2025-03-31 17:16:30,567 - INFO - Extracting text on page 8 of 9
+2025-03-31 17:16:30,567 - INFO - Success extracting text
+2025-03-31 17:16:30,575 - INFO - Extracting text on page 9 of 9
+2025-03-31 17:16:30,575 - INFO - Success extracting text
+2025-03-31 17:16:30,575 - INFO - Extracted text length: 33375 characters
+2025-03-31 17:16:30,575 - INFO - TOTAL INPUT TOKENS: 133500
+2025-03-31 17:16:33,979 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:16:33,985 - INFO - ChatCompletion(id='chatcmpl-BHGmcbr7aZpcwaY8OtQdeMe5dXCV8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='```json\n{\n    "DocumentID": "doc-1-3",\n    "InvolvesPHI": true,\n    "InvolvesCoveredEntity": true,\n    "Explanation": "The document discusses a legal case involving Ms. Maier, a Licensed Clinical Social Worker, and her interactions with law enforcement regarding a patient at Lafayette General Medical Center. It explicitly states that both Ms. Maier and the hospital are considered \'covered entities\' under HIPAA. The text references the HIPAA Privacy Rules and discusses the handling of Protected Health Information (PHI), which includes any information that could identify a patient, such as their name, address, and health condition. The document outlines various circumstances under which covered entities can disclose PHI to law enforcement, indicating that the case revolves around the protection of a patient\'s confidentiality and the legal obligations of healthcare providers. The mention of specific HIPAA regulations and the context of a patient’s identity being at stake further supports the conclusion that the document involves both PHI and covered entities."\n}\n```', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1743455790, model='gpt-4o-mini-2024-07-18', object='chat.completion', service_tier='default', system_fingerprint='fp_b376dfbbd5', usage=CompletionUsage(completion_tokens=210, prompt_tokens=7391, total_tokens=7601, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+2025-03-31 17:16:33,986 - INFO - Data for doc-1-3: 
+ {'DocumentID': 'doc-1-3', 'InvolvesPHI': True, 'InvolvesCoveredEntity': True, 'Explanation': "The document discusses a legal case involving Ms. Maier, a Licensed Clinical Social Worker, and her interactions with law enforcement regarding a patient at Lafayette General Medical Center. It explicitly states that both Ms. Maier and the hospital are considered 'covered entities' under HIPAA. The text references the HIPAA Privacy Rules and discusses the handling of Protected Health Information (PHI), which includes any information that could identify a patient, such as their name, address, and health condition. The document outlines various circumstances under which covered entities can disclose PHI to law enforcement, indicating that the case revolves around the protection of a patient's confidentiality and the legal obligations of healthcare providers. The mention of specific HIPAA regulations and the context of a patient’s identity being at stake further supports the conclusion that the document involves both PHI and covered entities."} 
+
+2025-03-31 17:16:33,988 - INFO - COMPLETE: doc-1-3
+2025-03-31 17:16:33,989 - INFO - 
+
+ ===== Document ID: doc-1-4 =====
+2025-03-31 17:16:33,989 - INFO - 
+Processing file: doc-1-4-PGH_GLOBAL_(CAYMAN)_LIMITED,_Plaintiff,_v._LIQUID...,_2018_WL_3822751....pdf
+2025-03-31 17:16:33,990 - INFO - 
+Processing PDF: /Users/brave/Desktop/gov1430-tech_science_to_save_world/unit2-2-hipaa/python_ai-gpt4o-analyser/5-test-pdf-files/doc-1-4-PGH_GLOBAL_(CAYMAN)_LIMITED,_Plaintiff,_v._LIQUID...,_2018_WL_3822751....pdf
+2025-03-31 17:16:33,995 - INFO - Number of pages: 37
+2025-03-31 17:16:34,010 - INFO - Extracting text on page 1 of 37
+2025-03-31 17:16:34,010 - INFO - Success extracting text
+2025-03-31 17:16:34,018 - INFO - Extracting text on page 2 of 37
+2025-03-31 17:16:34,018 - INFO - Success extracting text
+2025-03-31 17:16:34,030 - INFO - Extracting text on page 3 of 37
+2025-03-31 17:16:34,030 - INFO - Success extracting text
+2025-03-31 17:16:34,044 - INFO - Extracting text on page 4 of 37
+2025-03-31 17:16:34,044 - INFO - Success extracting text
+2025-03-31 17:16:34,053 - INFO - Extracting text on page 5 of 37
+2025-03-31 17:16:34,053 - INFO - Success extracting text
+2025-03-31 17:16:34,062 - INFO - Extracting text on page 6 of 37
+2025-03-31 17:16:34,063 - INFO - Success extracting text
+2025-03-31 17:16:34,070 - INFO - Extracting text on page 7 of 37
+2025-03-31 17:16:34,070 - INFO - Success extracting text
+2025-03-31 17:16:34,081 - INFO - Extracting text on page 8 of 37
+2025-03-31 17:16:34,081 - INFO - Success extracting text
+2025-03-31 17:16:34,086 - INFO - Extracting text on page 9 of 37
+2025-03-31 17:16:34,086 - INFO - Success extracting text
+2025-03-31 17:16:34,094 - INFO - Extracting text on page 10 of 37
+2025-03-31 17:16:34,094 - INFO - Success extracting text
+2025-03-31 17:16:34,104 - INFO - Extracting text on page 11 of 37
+2025-03-31 17:16:34,104 - INFO - Success extracting text
+2025-03-31 17:16:34,141 - INFO - Extracting text on page 12 of 37
+2025-03-31 17:16:34,141 - INFO - Success extracting text
+2025-03-31 17:16:34,151 - INFO - Extracting text on page 13 of 37
+2025-03-31 17:16:34,151 - INFO - Success extracting text
+2025-03-31 17:16:34,162 - INFO - Extracting text on page 14 of 37
+2025-03-31 17:16:34,162 - INFO - Success extracting text
+2025-03-31 17:16:34,171 - INFO - Extracting text on page 15 of 37
+2025-03-31 17:16:34,171 - INFO - Success extracting text
+2025-03-31 17:16:34,181 - INFO - Extracting text on page 16 of 37
+2025-03-31 17:16:34,181 - INFO - Success extracting text
+2025-03-31 17:16:34,191 - INFO - Extracting text on page 17 of 37
+2025-03-31 17:16:34,191 - INFO - Success extracting text
+2025-03-31 17:16:34,203 - INFO - Extracting text on page 18 of 37
+2025-03-31 17:16:34,203 - INFO - Success extracting text
+2025-03-31 17:16:34,213 - INFO - Extracting text on page 19 of 37
+2025-03-31 17:16:34,213 - INFO - Success extracting text
+2025-03-31 17:16:34,223 - INFO - Extracting text on page 20 of 37
+2025-03-31 17:16:34,224 - INFO - Success extracting text
+2025-03-31 17:16:34,232 - INFO - Extracting text on page 21 of 37
+2025-03-31 17:16:34,232 - INFO - Success extracting text
+2025-03-31 17:16:34,243 - INFO - Extracting text on page 22 of 37
+2025-03-31 17:16:34,243 - INFO - Success extracting text
+2025-03-31 17:16:34,246 - INFO - Extracting text on page 23 of 37
+2025-03-31 17:16:34,247 - INFO - Success extracting text
+2025-03-31 17:16:34,256 - INFO - Extracting text on page 24 of 37
+2025-03-31 17:16:34,256 - INFO - Success extracting text
+2025-03-31 17:16:34,264 - INFO - Extracting text on page 25 of 37
+2025-03-31 17:16:34,264 - INFO - Success extracting text
+2025-03-31 17:16:34,272 - INFO - Extracting text on page 26 of 37
+2025-03-31 17:16:34,272 - INFO - Success extracting text
+2025-03-31 17:16:34,283 - INFO - Extracting text on page 27 of 37
+2025-03-31 17:16:34,283 - INFO - Success extracting text
+2025-03-31 17:16:34,292 - INFO - Extracting text on page 28 of 37
+2025-03-31 17:16:34,292 - INFO - Success extracting text
+2025-03-31 17:16:34,297 - INFO - Extracting text on page 29 of 37
+2025-03-31 17:16:34,297 - INFO - Success extracting text
+2025-03-31 17:16:34,309 - INFO - Extracting text on page 30 of 37
+2025-03-31 17:16:34,309 - INFO - Success extracting text
+2025-03-31 17:16:34,316 - INFO - Extracting text on page 31 of 37
+2025-03-31 17:16:34,316 - INFO - Success extracting text
+2025-03-31 17:16:34,325 - INFO - Extracting text on page 32 of 37
+2025-03-31 17:16:34,325 - INFO - Success extracting text
+2025-03-31 17:16:34,336 - INFO - Extracting text on page 33 of 37
+2025-03-31 17:16:34,336 - INFO - Success extracting text
+2025-03-31 17:16:34,347 - INFO - Extracting text on page 34 of 37
+2025-03-31 17:16:34,347 - INFO - Success extracting text
+2025-03-31 17:16:34,356 - INFO - Extracting text on page 35 of 37
+2025-03-31 17:16:34,356 - INFO - Success extracting text
+2025-03-31 17:16:34,363 - INFO - Extracting text on page 36 of 37
+2025-03-31 17:16:34,363 - INFO - Success extracting text
+2025-03-31 17:16:34,368 - INFO - Extracting text on page 37 of 37
+2025-03-31 17:16:34,368 - INFO - Success extracting text
+2025-03-31 17:16:34,368 - INFO - Extracted text length: 130266 characters
+2025-03-31 17:16:34,368 - INFO - TOTAL INPUT TOKENS: 521064
+2025-03-31 17:16:34,368 - WARNING - Warning: Large document. Consider rate limits:
+2025-03-31 17:16:34,368 - WARNING - Estimated tokens: 32566
+2025-03-31 17:16:34,368 - WARNING - Rate limits: 200K tokens/minute, 2M tokens/day

@@ -1,12 +1,12 @@
 # Overview
 
-This folder contains a python file `main.py` that takes in a directory containing pdfs (`2-cases-database`) as well as a desired ouput csv such as `analyzed.csv`. The python script extracts text from each pdf sends it to the Chat GPT 4o AI for analysis, which returns information to answer the [track 1 google form](https://docs.google.com/forms/d/e/1FAIpQLSevmluOaUvUwCzhtOB9WIomytK9J3z9F4k29kiWEs31o8Q4bg/viewform?pli=1&pli=1). At the end of the analysis, the python script outputs a csv with the desired name containing all the structured respones such as `analyzed.csv`. 
+This folder contains a python file `pdf_to_form_gpt_analysis.py` that takes in a directory containing pdfs (`2-cases-database`) as well as a desired ouput csv such as `analyzed.csv`. The python script extracts text from each pdf sends it to the Chat GPT 4o AI for analysis, which returns information to answer the [track 1 google form](https://docs.google.com/forms/d/e/1FAIpQLSevmluOaUvUwCzhtOB9WIomytK9J3z9F4k29kiWEs31o8Q4bg/viewform?pli=1&pli=1). At the end of the analysis, the python script outputs a csv with the desired name containing all the structured respones such as `analyzed.csv`. 
 
 Usage (please replace information within square brackets [...] with your own information): 
 
-`python3 main.py [/path/to/input/folder] [output-filename].csv false`
+`python3 pdf_to_form_gpt_analysis.py [/path/to/input/folder] [output-filename].csv`
 
-Example: `Python3 main.py /Users/name/Desktop/hippa_doc_analysis/2-cases-database analyzed.csv false`
+Example: `Python3 pdf_to_form_gpt_analysis.py /Users/name/Desktop/hippa_doc_analysis/2-cases-database analyzed.csv false`
 
 > It is important to set up an OpenAI api key to access the gpt-4o api
 > Please create a `.env` file in this directory, and add your OpenAI api key as follows: 
