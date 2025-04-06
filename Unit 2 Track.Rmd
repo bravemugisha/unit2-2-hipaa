@@ -14,6 +14,9 @@ knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(dplyr)
 library(stringr)
+library(ggplot2)
+library(tidyr)
+
 form1human <- read_csv("1-form1human.csv")%>%
   mutate(evaluator= "human")
 
@@ -118,6 +121,11 @@ form1gpt <- form1gpt %>%
 
 ```
 
+```{r}
+form1gpt_mini <- read.csv("gpt-4o-mini.csv")%>%
+  mutate(evaluator="gpt_mini")
+```
+
 
 ```{r}
 form1human_wrangled<-form1human%>%
@@ -132,7 +140,8 @@ form1claude_wrangled<-form1claude%>%
 
 form1gpt_wrangled<-form1gpt%>%
   rename("docID"="DocumentID" )%>%
-  select(- c("DocumentType", "DateOfDocumentOrCase", "KindOfPersonalData"))
+  select(- c("DocumentType", "DateOfDocumentOrCase", "KindOfPersonalData"))%>%
+  mutate(evaluator= "gpr-4o")
 
 #make a combined dataset of human and AI evaluations
 
@@ -144,8 +153,7 @@ combined_wrangled_dataset<-bind_rows(form1claude_wrangled, form1human_wrangled, 
 
 
 ```{r}
-#finding what the most frequently reported values are in each column for each unique docid
-
+#finding what the most frequently reported values are in each column for each unique docid. NOTE: THIS DOES NOT INCLUDE THE GPT MINI
 
 # List of columns to compute majority response
 cols_to_summarize <- c("Personal_Health_Information", "Demographics", "Education_or_Licensing", 
@@ -178,8 +186,7 @@ head(majority_response_per_docID)
 ```
 
 ```{r}
-library(ggplot2)
-library(tidyr)
+
 ggplot(majority_response_per_docID, mapping=aes(x=Personal_Health_Information))+
   geom_bar()
 
@@ -248,4 +255,56 @@ ggplot(majority_long, aes(x = Variable, fill = Response)) +
 ```
 
 
+
+
+```{r}
+#THIS WORK WILL FIND MAJORITY RESPONSES WITH THE MINI GPT 40 as well
+
+form1gpt_mini_wrangled<-form1gpt_mini%>%
+  rename("docID"="DocumentID" )%>%
+  rename("Personal_Health_Information"= "InvolvesPHI")%>%
+  rename("Covered_Entity_Involved"= "InvolvesCoveredEntity")%>%
+  mutate(Personal_Health_Information= case_when (
+    Personal_Health_Information== "True" ~ 1, 
+    Personal_Health_Information== "False" ~ 0))%>%
+   mutate(Covered_Entity_Involved= case_when (
+    Covered_Entity_Involved== "True" ~ "1", 
+    Covered_Entity_Involved== "False" ~ "0"))%>%
+  select(-Explanation)
+
+
+combined_dataset_w_mini <- bind_rows(
+  select(form1claude_wrangled, docID, evaluator, Personal_Health_Information,Covered_Entity_Involved),
+  select(form1human_wrangled, docID, evaluator, Personal_Health_Information, Covered_Entity_Involved),
+  select(form1gpt_wrangled, docID, evaluator, Personal_Health_Information, Covered_Entity_Involved),
+  select(form1gpt_mini_wrangled, docID, evaluator, Personal_Health_Information, Covered_Entity_Involved)
+)
+
+#Find majority responses with the mini gpt included
+
+# Compute majority response per docID (include all docIDs)
+majority_responses_w_mini <- combined_dataset_w_mini %>%
+  group_by(docID) %>%
+  summarize(across(all_of(c("Personal_Health_Information", "Covered_Entity_Involved")), get_majority_or_flag), .groups = "drop")
+
+
+
+#Comparing the results when including mini and not
+majority_responses_w_mini %>%
+  group_by(Personal_Health_Information)%>%
+  count()
+
+majority_response_per_docID %>%
+  group_by(Personal_Health_Information)%>%
+  count()
+
+
+majority_responses_w_mini %>%
+  group_by(Covered_Entity_Involved)%>%
+  count()
+
+majority_response_per_docID %>%
+  group_by(Covered_Entity_Involved)%>%
+  count()
+```
 
